@@ -1,0 +1,43 @@
+--> Software
+
+ 1. VS Code 
+ 2. Git 
+ 3. Node.js
+ 4. Mongo DB
+ 
+--> Full Stack Development 
+    -> Front End (UI)
+       Html
+       Css
+       javascript
+       Bootstrap | tailwind
+       Angular | React | Vue
+
+    -> Backend   
+       Node Js
+       Java : Spring Boot
+       .netCore
+       fast API
+       laravel
+    -> Database
+       -> Relational : sql, MySQL, MariaDB etc
+       -> No SQL : MongoDB,
+
+    -> Deployment (Devops)
+       Git and Github
+        -> push the code to github
+          -> create a CI/CD pipeline (automate the deployment process)
+            -> Github Actions
+            -> Docker and Kubernetes
+          -> Application id deploy to the production server (AWS, Azure, Google Cloud)
+
+-> Multipage Application 
+   when we click on the link it will reload the page and load the new page (slow) (PHP, Java, .net)
+   reload the entire page when navigate to another section of the website
+
+   -> Single Page Application (SPA) (fast) (Angular, React, Vue)
+      index.html (only one page)
+      when we click on the link it will not reload the page but it will load the new content dynamically (fast)
+      
+
+ 
