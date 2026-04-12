@@ -1,0 +1,48 @@
+-->Web Application: Combination of multiple webpages, which are lined with each other.
+
+   -> Webpage : Collection of text, audio, video,images, and other multimedia elements that are displayed on the internet.
+   -> Anything is in internet is a webpage,
+
+
+
+
+
+
+
+
+
+   --> GIT: Version control system, which is used to track changes in source code during software development. It allows multiple developers to work on the same project simultaneously without conflicts.
+      -> It is used for source code management, collaboration, and version control in software development projects.
+      -> Is helps developers work together on projects by keeping track of changes, managing branches, and resolving conflicts.
+      -> It make easy to manage code changes and collaborate with others.
+
+      -> Installation of GIT:
+
+            1. Download GIT from the official website: https://git-scm.com/downloads
+            2. Follow the installation instructions for your operating system (Windows, macOS, Linux).
+            3. After installation, you can verify that GIT is installed correctly by opening a terminal or command prompt and typing `git --version`. This should display the installed version of GIT. 
+
+            git command: 
+            1. git init: Initializes a new Git repository in the current directory.
+            2. git add <file>: Adds a file to the staging area, preparing it for a commit.
+            3. git commit -m "message": Commits the staged changes to the repository with a descriptive message.
+            4. git status: Displays the current status of the repository, including staged and unstaged changes.
+            5. git log: Shows the commit history of the repository, including commit messages and author information.
+            6. git branch: Lists all branches in the repository, and indicates the current branch.
+            7. git checkout <branch>: Switches to the specified branch in the repository.
+            8. git merge <branch>: Merges the specified branch into the current branch, combining their changes.
+            9. git pull: Fetches and integrates changes from a remote repository into the current branch.
+            10. git push: Uploads local commits to a remote repository, making them available to others.    
+
+            git init 
+            git add .
+            git commit -m "Initial commit"
+            git remote add origin <repository_url>
+            git push -u origin master
+
+ 
+
+
+
+
+       

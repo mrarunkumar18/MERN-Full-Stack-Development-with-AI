@@ -40,4 +40,22 @@
       when we click on the link it will not reload the page but it will load the new content dynamically (fast)
       
 
- 
+ --> What are AI Tools?
+     -> They are software applications that utilize ml and neural networks to automate task, 
+     generate contents and analyze data. (boosting productivity and creativity)
+
+     -> ChatGPT, Claude, Gemini etc (LLMs)
+     -> Automation (Zapier)
+     -> Image and Video Generators : DALL-E, Midjourney, RunwayML
+      -> Code Generation : GitHub Copilot, Tabnine
+      -> Data Analysis : DataRobot, RapidMiner
+      
+
+   --> Benefits  
+       -> Automation 
+       -> Fast, Data-driven predictions and insights
+       -> Creativity Assistance 
+
+   --> Prompt : to instruct AI models on the desired output .
+      -> include a role, context,      
+

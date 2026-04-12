@@ -1,0 +1,41 @@
+--> HTML: stand for Hyper Text Markup Language. 
+    -> with the help of it we can create the structure of the webpage (UI).
+    -> latest version of HTML is HTML5
+    -> extension .html or .htm 
+    -> it is not a case sensitive language 
+       <html> 
+       <HTML>
+
+    -> Structure (syntax) 
+       -> Write in tags < > 
+       <!Doctype html> 
+       <html>
+            <head>
+                 <title>Title of the webpage</title>
+            </head>
+            <body>
+                 <h1>Heading 1</h1>
+                 <p>This is a paragraph.</p>
+            </body>
+       </html>
+
+    -> title 
+    -> meta tags
+       They are used for SEO (Search Engine Optimization) 
+
+
+     -> Comments: to describe the code 
+        <!-- This is a comment -->
+
+     -> Every tag must be closed 
+        <h1>Heading 1</h1>
+        <p>This is a paragraph.</p>
+        -> Self closing tags: they do not require a closing tag
+        <img src="image.jpg" alt="Image description" />
+        <br />
+        <hr />
+        hyperlink
+        list
+        table: collection of rows and columns
+
+            
