@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Implementation</title>
+</head>
+
+<body>
+    <h2>Forms Example</h2>
+    <form method="post">
+        <!-- text field -->
+        Full Name : <input type="text" name="fullname" placeholder="Enter your full name" required>
+        <br? />
+        <!-- email field -->
+        Email : <input type="email" name="email" placeholder="Enter your email" required /> <br />
+        <!-- Password -->
+        Password : <input type="password" name="password" placeholder="Enter your password" required /> <br />
+        <!-- radio button  -->
+        Gender : <input type="radio" name="gender" value="male" /> Male
+        <input type="radio" name="gender" value="female" /> Female <br />
+        <!-- checkbox  -->
+        Hobbies : <input type="checkbox" name="c1[]" value="cricket" /> Cricket
+        <input type="checkbox" name="c1[]" value="football" /> Football
+        <input type="checkbox" name="c1[]" value="hockey" /> Hockey <br />
+        <!-- dropdown  -->
+        Country : <select name="country" required>
+            <option value="">Select Country</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+        </select> <br />
+        Age : <input type="number" name="age" placeholder="Enter your age" required /> <br />
+        Dob : <input type="date" name="dob" required /> <br />
+        Color : <input type="color" name="color" required /> <br />
+        Time : <input type="time" name="time" required /> <br />
+        datetime : <input type="datetime-local" name="datetime" required /> <br />
+        <!-- textarea  -->
+        Remarks : <textarea name="remarks" required></textarea> <br />
+        Url : <input type="url" name="url" placeholder="Enter your website url" required /> <br />
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+
+</html>

@@ -38,4 +38,17 @@
         list
         table: collection of rows and columns
 
+        -> ** Form: collection of fields like textbox, dropdown, checkbox etc.
+              <form>
+              </form>
+
+               -> attributes
+               -> name | id=""
+               -> method = "get" or "post" (by default get)
+                    -> get : unsecure method (data is visible in the URL)
+                    -> post : secure method
+               -> action = "url" (where the form data will be sent)
+               -> input type = "text" | "password" | "email" | "submit" | "checkbox" | "radio" | "file" etc.     
+
+
             
