@@ -31,4 +31,17 @@
        </html>
 
      -> External Styles(CSS): We can create a css file with an extension of .css  and then we call that css file in any of the webpage of my website.
-        
+        h1{}
+        p{}
+        a{}
+        my.html
+        <html>
+            <head>
+                <link rel="stylesheet" href="style.css">
+            </head>
+            <body>
+            ---- 
+            </body>
+        </html>
+
+       
