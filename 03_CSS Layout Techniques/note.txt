@@ -116,5 +116,9 @@
 
        -> :first-child : matches an element that is the first child of its parent.
        
+   -> Pseudo-element (::) : It allow to style the specific part of an element.
+      selector :: pseudo-element{
+        styles
+      }
        
   
