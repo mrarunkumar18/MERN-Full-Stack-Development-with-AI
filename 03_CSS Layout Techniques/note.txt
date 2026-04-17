@@ -1,0 +1,17 @@
+--> CSS: Cascading Style Sheets. It is used to style the HTML document - colors, font, spacing, border, etc. 
+    syntex
+
+     selector{
+        property: value;
+     } 
+     eg: 
+     h1{
+        color: 'red'
+     }
+     -> How we add styles (types of styles)
+       -> Inline Styles : These styles are define in any tag with the help of style sttribute. 
+       eg: 
+       <p style="color: red;">
+       ---
+       ---
+       </P>
