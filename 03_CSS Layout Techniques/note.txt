@@ -80,3 +80,41 @@
     text-align: center;
     color: red;
  }
+
+-> setting color property 
+   body{
+      color: red
+   }
+   -> color values
+    -> color keyword or name red, green, yellow etc
+    -> hex value - like #ff0000  (6 digits) 
+    -> rgb value - like rgb(255, 0, 0)
+    -> rgba value - like rgba(255, 0, 0, 0.5)
+    -> hsl value - like hsl(0, 100%, 50%)
+    -> hsla value - like hsla(0, 100%, 50%, 0.5)
+     
+     -> inline ----> internal ----> external 
+
+   -> pseudo classes : it allow to style the dynamic states of an element  such as hover, active, focus state or element existing into our document.
+      starting with : 
+       selector : pseudo-class{
+         styles
+       }
+       eg: 
+       a:hover{
+        color: red;
+       }
+       a:link{
+        color: green;
+       }
+       a:visited{
+        color: blue;
+       }
+       a:active{
+        color: yellow;
+       }
+
+       -> :first-child : matches an element that is the first child of its parent.
+       
+       
+  
