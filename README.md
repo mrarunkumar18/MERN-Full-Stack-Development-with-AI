@@ -71,10 +71,14 @@ This repository contains my complete journey of learning **MERN Stack Developmen
 
 ## 📝 My Notes
 
-I will upload:
-- 📌 Important concepts
-- 📌 Code snippets
-- 📌 Mistakes & learnings
+**Recent Learnings - CSS Concepts:**
+- 📌 **CSS Integration:** Learned how to apply styles using Inline (`style=""`), Internal (`<style>`), and External (`<link rel="stylesheet">`) methods.
+- 📌 **CSS Selectors:** Understood how to target elements using:
+  - Universal (`*`)
+  - Element/Tag (`h1`, `p`)
+  - Class (`.classname`)
+  - ID (`#idname`)
+  - Grouping (`h1, h2, p`)
 
 ---
 
