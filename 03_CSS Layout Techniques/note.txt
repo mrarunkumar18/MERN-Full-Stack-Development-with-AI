@@ -44,4 +44,39 @@
             </body>
         </html>
 
-       
+
+--> CSS Selectors: 
+ -> Universal Selectors (*) 
+    *{
+    styles will be applied to all the elements
+    }
+
+ -> Element Selectors (tag name)
+    h1 , p , a etc 
+    h1{
+    styles will be applied to all the h1 elements
+    }
+
+ -> class selector
+    eg:
+    .error{
+        color: red;
+    }
+    <p class="error">This is an error</p>
+
+ -> Id Selectors : (Unique style) , it is define with hash(#) symbol with id name and call in any tag with id attribute.
+    eg:
+    #main{
+        //style will be applied to the element with id "main"
+    }
+    <div id="main">
+        <h1>This is a heading</h1>
+        <p>This is a paragraph</p>
+    </div>
+
+ -> 
+
+ h1, h2, h3{
+    text-align: center;
+    color: red;
+ }
