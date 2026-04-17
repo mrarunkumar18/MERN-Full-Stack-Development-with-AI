@@ -15,3 +15,20 @@
        ---
        ---
        </P>
+       -> Internal (embedded style): These styles are define in head section with the help of style tag. 
+       eg: 
+       <html>
+           <head>
+              <styel>
+              h1{}
+              p{}
+              a{}
+              </styel>
+           </head>
+           <body>
+            
+           </body>
+       </html>
+
+     -> External Styles(CSS): We can create a css file with an extension of .css  and then we call that css file in any of the webpage of my website.
+        

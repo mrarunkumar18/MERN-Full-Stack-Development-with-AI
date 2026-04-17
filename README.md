@@ -58,11 +58,12 @@ This repository contains my complete journey of learning **MERN Stack Developmen
 
 ## 📊 My Progress
 
-| Module | Status |
+| Module / Topic | Status |
 |------|--------|
-| Introduction | ✅ Completed |
-| HTML & CSS | ✅ Completed |
-| JavaScript | 🔄 In Progress |
+| Introduction to Web Basics (01) | ✅ Completed |
+| Version Control & CSS Concepts (02) | ✅ Completed |
+| CSS Layout Techniques (03) | 🔄 In Progress |
+| JavaScript | ⏳ Pending |
 | Backend | ⏳ Pending |
 | Projects | ⏳ Pending |
 
