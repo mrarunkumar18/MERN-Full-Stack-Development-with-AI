@@ -50,5 +50,34 @@
                -> action = "url" (where the form data will be sent)
                -> input type = "text" | "password" | "email" | "submit" | "checkbox" | "radio" | "file" etc.     
 
+      -> HTML 5 semantic tags
+         -> they have a meaning  the structure is more readable and easy to understand 
+            <main> </main>
+            <header> </header>
+            <nav> </nav>
+            <section> </section>
+            <article> </article>
+            <aside> </aside>
+            <footer> </footer>
+            <details> </details>
+            <summary> </summary>
+            <time> </time>
+            <mark> </mark>
+            <progress> </progress>
+            <meter> </meter>
+            <dialog> </dialog>
+            <figure> </figure>
+            <audio> </audio>
+            <video> </video>
+            <picture> </picture>
+            <template> </template>
+            
+
+            -> Introduction to accessibility and ARIA : these are attributes ( screenreaders) 
+               roles, states, properties 
+                  -> native elements (button, input , select) 
+                     role="button" 
+                     role="dialog'
+
 
             
