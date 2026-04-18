@@ -89,11 +89,9 @@ I am breaking down the vast ecosystem of web development into structured, manage
 **Recent Learnings - CSS Concepts:**
 - 📌 **CSS Integration:** Effectively applied styles using Inline (`style=""`), Internal (`<style>`), and External (`<link rel="stylesheet">`) methods.
 - 📌 **CSS Selectors:** Understanding how to precisely target DOM elements using:
-  - Universal (`*`)
-  - Element/Tag (`h1`, `p`)
-  - Class (`.className`)
-  - ID (`#idName`)
-  - Grouping (`h1, h2, p`)
+  - Universal (`*`), Element/Tag (`h1`, `p`), Class (`.className`), ID (`#idName`), and Grouping (`h1, h2, p`).
+- 📌 **Working with Colors:** Applied various color formats including Keywords, Hex (`#ff0000`), `rgb()`, `rgba()`, `hsl()`, and `hsla()`.
+- 📌 **Pseudo-classes & Elements:** Styling dynamic element states using pseudo-classes (`:hover`, `:active`, `:first-child`) and specific parts of an element with pseudo-elements (`::`).
 
 ---
 
