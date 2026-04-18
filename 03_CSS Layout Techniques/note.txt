@@ -120,5 +120,6 @@
       selector :: pseudo-element{
         styles
       }
-       
+      eg: 
+        :: first-line  
   
