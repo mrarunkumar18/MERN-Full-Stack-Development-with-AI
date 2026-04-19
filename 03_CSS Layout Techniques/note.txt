@@ -125,5 +125,21 @@
         :: first-letter
         :: befor or after 
 
+
+   -> CSS Fonts
+       font-family 
+       font-style
+       font-size:20px 
+         pixles (px) - Absolute value
+         em - Relative value  dependent on parent's font size  
+         rem - Relative value (relative to root)
+         % - Percentage value 
+          -> if no size in a parent , then default of the browser size i.e., 16px
+          1 em = 16px (by default)
+          1 rem = 16px (by default)
+         
+         
+
+
         
   

@@ -92,6 +92,7 @@ I am breaking down the vast ecosystem of web development into structured, manage
   - Universal (`*`), Element/Tag (`h1`, `p`), Class (`.className`), ID (`#idName`), and Grouping (`h1, h2, p`).
 - 📌 **Working with Colors:** Applied various color formats including Keywords, Hex (`#ff0000`), `rgb()`, `rgba()`, `hsl()`, and `hsla()`.
 - 📌 **Pseudo-classes & Elements:** Styling dynamic element states using pseudo-classes (`:hover`, `:active`, `:first-child`) and specific parts of an element with pseudo-elements (`::`).
+- 📌 **CSS Fonts & Typography:** Learned about `font-family`, `font-style`, and different units for `font-size` such as absolute units (`px`) and relative units (`em`, `rem`, `%`), understanding how they relate to default browser sizes.
 
 ---
 
