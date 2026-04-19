@@ -1,0 +1,45 @@
+--> Css : cascading style sheet . It is used to style out HTML document - colors, fonts, 
+      -> CSS fonts
+           font-size
+            fint-size :20px
+            em (depend on parent element)
+
+
+--> CSS Box Model
+     -> dimensions
+        width
+        height 
+        eg:
+          div{
+            width:300px;
+            height:200px;
+
+          }            
+
+    -> padding : the space between the content and the border
+                 padding-top
+                 padding-bottom
+                 padding-left
+                 padding-right
+
+                 eg: padding:20px;
+                     padding:10px 20px;
+                     padding:10px 20px 30px;
+                     padding:10px 20px 30px 40px;
+
+    -> margin : the space between the border and the next element
+                 margin-top
+                 margin-bottom
+                 margin-left
+                 margin-right
+
+                 eg: margin:20px;
+                     margin:10px 20px;
+                     margin:10px 20px 30px;
+                     margin:10px 20px 30px 40px;
+
+
+                     
+
+            
+             
