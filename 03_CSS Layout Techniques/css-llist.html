@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css list </title>
+    <style>
+        ul {
+            list-style-type: none; /* Remove default bullets if desired, or move this to li:first-child */
+        }
+        
+        li:first-child::before {
+            content: "";
+            display: inline-block;
+            background-image: url('images/home.png');
+            background-size: contain;
+            /* background-repeat: no-repeat; */
+            width: 20px; 
+            height: 20px; 
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        li:nth-child(2)::before {
+            content: "";    
+            display: inline-block;
+            background-image: url('images/id-card.png');
+            background-size: contain;
+            /* background-repeat: no-repeat; */
+            width: 20px; 
+            height: 20px; 
+            margin-right: 10px;
+            vertical-align: middle;
+            
+        }
+        li:nth-child(3)::before{
+            content: "";
+            display: inline-block;
+            background-image: url('images/contact.png');
+            background-size: contain;
+            /* background-repeat: no-repeat; */
+            width: 20px; 
+            height: 20px; 
+            margin-right: 10px;
+            vertical-align: middle;
+            
+        }
+    </style>
+</head>
+<body>
+    <h2>css list</h2>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+    <!-- <ol>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ol> -->
+   
+</body>
+</html>
