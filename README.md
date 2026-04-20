@@ -76,23 +76,27 @@ I am breaking down the vast ecosystem of web development into structured, manage
 | Module | Topics Covered | Status |
 |--------|---------------|--------|
 | 🟢 **Module 1: Introduction** | Orientation, Foundation, Web Basics | ✅ Completed |
-| 🟡 **Module 2: Frontend Basics** | HTML, CSS, Responsive Design | 🔄 In Progress |
-| 🔵 **Module 3: JavaScript** | Basics, DOM Manipulation, ES6 | ⏳ Pending |
-| 🟣 **Module 4: Backend** | Node.js, Express.js, APIs | ⏳ Pending |
-| 🟠 **Module 5: Database** | MongoDB, Mongoose | ⏳ Pending |
-| 🔴 **Module 6: Projects + AI** | Full Stack Projects, AI Integration | ⏳ Pending |
+| 🟡 **Module 2: Frontend Basics** | HTML Structure, Forms, Tables, Core CSS | ✅ Completed |
+| 🟠 **Module 3: CSS Layout Techniques** | Typography, Pseudo-classes/elements, Styling Practice | 🔄 In Progress |
+| 🟣 **Module 4: Responsive Design (Bootstrap)** | Box Model and responsive UI foundations | 🟡 Started |
+| 🔵 **Module 5: JavaScript** | Basics, DOM Manipulation, ES6 | ⏳ Pending |
+| 🟤 **Module 6: Backend** | Node.js, Express.js, APIs | ⏳ Pending |
+| ⚫ **Module 7: Database** | MongoDB, Mongoose | ⏳ Pending |
+| 🔴 **Module 8: Projects + AI** | Full Stack Projects, AI Integration | ⏳ Pending |
 
 ---
 
 ## 📝 My Notes
 
-**Recent Learnings - CSS Concepts:**
+**Recent Learnings - HTML/CSS Journey:**
 - 📌 **CSS Integration:** Effectively applied styles using Inline (`style=""`), Internal (`<style>`), and External (`<link rel="stylesheet">`) methods.
 - 📌 **CSS Selectors:** Understanding how to precisely target DOM elements using:
   - Universal (`*`), Element/Tag (`h1`, `p`), Class (`.className`), ID (`#idName`), and Grouping (`h1, h2, p`).
 - 📌 **Working with Colors:** Applied various color formats including Keywords, Hex (`#ff0000`), `rgb()`, `rgba()`, `hsl()`, and `hsla()`.
 - 📌 **Pseudo-classes & Elements:** Styling dynamic element states using pseudo-classes (`:hover`, `:active`, `:first-child`) and specific parts of an element with pseudo-elements (`::`).
 - 📌 **CSS Fonts & Typography:** Learned about `font-family`, `font-style`, and different units for `font-size` such as absolute units (`px`) and relative units (`em`, `rem`, `%`), understanding how they relate to default browser sizes.
+- 📌 **Page Structures:** Practiced building pages with forms, tables, lists, and section-based layouts.
+- 📌 **Layout Practice:** Worked on multiple styling exercises in the CSS Layout Techniques module and started responsive design basics with Bootstrap.
 
 ---
 
@@ -119,7 +123,7 @@ code .
 
 ## 🎯 Future Plan
 
-- **Short-term:** Complete the CSS and modern JavaScript modules to build my first dynamic DOM-manipulation app.
+- **Short-term:** Complete responsive design fundamentals and begin JavaScript basics + DOM manipulation.
 - **Mid-term:** Build and deploy 3 fully functional, full-stack projects using custom REST APIs.
 - **Long-term:** Master basic web security principles (Cybersecurity) to ensure my apps are safe for production, and apply for remote full-stack internships.
 
