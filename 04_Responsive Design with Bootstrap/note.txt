@@ -59,8 +59,13 @@
         box-sizing: border-box; /* content + padding + border = total width */
         box-sizing: content-box; /* content + padding + border = extra width */
 
+    -> positioning techniques : 
+      -> static positioning : It always positioned according to the normal flow of the page. All elements static by default.
+      -> relative positioning : It is positioned relative to its normal position.
+         
 
     -> CSS Flexbox
+
         
 
             
