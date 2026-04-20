@@ -62,11 +62,11 @@
     -> positioning techniques : 
       -> static positioning : It always positioned according to the normal flow of the page. All elements static by default.
       -> relative positioning : It is positioned relative to its normal position.
+      -> Absolute : It is positioned relativeto its first parent element , which have a postion relative. If no parent element have a postion relative then it is positioned relative to the body element.
+      -> Fixed : It is positioned relative to the viewport.
+      -> Sticky : It is positioned relative to the viewport , but it is also positioned relative to its parent element.
+      
          
 
     -> CSS Flexbox
 
-        
-
-            
-             
