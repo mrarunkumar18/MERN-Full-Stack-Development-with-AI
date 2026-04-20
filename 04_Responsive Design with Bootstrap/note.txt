@@ -65,8 +65,12 @@
       -> Absolute : It is positioned relativeto its first parent element , which have a postion relative. If no parent element have a postion relative then it is positioned relative to the body element.
       -> Fixed : It is positioned relative to the viewport.
       -> Sticky : It is positioned relative to the viewport , but it is also positioned relative to its parent element.
-      
+
          
 
-    -> CSS Flexbox
+    -> Flexbox layout system (one dimensional layout): new layout model introduced in css3
+    display:flex 
+      at parent, then all the children of the parent are inline 
+      
+        
 
