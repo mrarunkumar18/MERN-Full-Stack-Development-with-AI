@@ -77,3 +77,41 @@ footer p {
   width: auto;
 
 }
+
+/* media query */
+@media screen and (max-width:500px){
+  header{
+    height: 100%;
+    width: 100%;
+  }
+  section{
+    height: 500px;
+    width: 100%;
+    display: flex;
+  }  
+  aside{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  article{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  header h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    height: auto;
+    width: auto;
+    margin: 0;
+    
+  }
+  nav ul li{
+    display: block;
+    
+  }
+}

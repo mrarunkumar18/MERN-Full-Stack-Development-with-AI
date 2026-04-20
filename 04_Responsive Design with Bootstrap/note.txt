@@ -73,4 +73,5 @@
       at parent, then all the children of the parent are inline 
       
         
+    -> Media Queries : The Media Query is a CSS technique used to apply different styles to different devices or screen sizes. It is used to make the website responsive to different devices.
 
