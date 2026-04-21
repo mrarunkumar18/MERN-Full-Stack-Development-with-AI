@@ -7,6 +7,10 @@
     
    -> If we want to use bootstrp in our webpage we need to link the css file of bootstrap in our html file.
     
+    CDN : Content Delivery Network (online link)
+    -> Bootstrap is work on 12 grid system.
+     1 row have 12 columns
+     
 
 
 
