@@ -77,9 +77,9 @@ I am breaking down the vast ecosystem of web development into structured, manage
 |--------|---------------|--------|
 | 🟢 **Module 1: Introduction** | Orientation, Foundation, Web Basics | ✅ Completed |
 | 🟡 **Module 2: Frontend Basics** | HTML Structure, Forms, Tables, Core CSS | ✅ Completed |
-| 🟠 **Module 3: CSS Layout Techniques** | Typography, Pseudo-classes/elements, Styling Practice | 🔄 In Progress |
-| 🟣 **Module 4: Responsive Design (Bootstrap)** | Box Model and responsive UI foundations | 🟡 Started |
-| 🔵 **Module 5: JavaScript** | Basics, DOM Manipulation, ES6 | ⏳ Pending |
+| 🟠 **Module 3: CSS Layout Techniques** | Typography, Pseudo-classes/elements, Styling Practice | ✅ Completed |
+| 🟣 **Module 4: Responsive Design (Bootstrap)** | Box Model, Positioning, CSS Grid, Semantic Layouts, Media Queries | 🔄 In Progress |
+| 🔵 **Module 5: JavaScript (Foundation)** | Bootstrap 5 Intro, Basics, DOM Manipulation, ES6 | 🟡 Started |
 | 🟤 **Module 6: Backend** | Node.js, Express.js, APIs | ⏳ Pending |
 | ⚫ **Module 7: Database** | MongoDB, Mongoose | ⏳ Pending |
 | 🔴 **Module 8: Projects + AI** | Full Stack Projects, AI Integration | ⏳ Pending |
@@ -95,8 +95,10 @@ I am breaking down the vast ecosystem of web development into structured, manage
 - 📌 **Working with Colors:** Applied various color formats including Keywords, Hex (`#ff0000`), `rgb()`, `rgba()`, `hsl()`, and `hsla()`.
 - 📌 **Pseudo-classes & Elements:** Styling dynamic element states using pseudo-classes (`:hover`, `:active`, `:first-child`) and specific parts of an element with pseudo-elements (`::`).
 - 📌 **CSS Fonts & Typography:** Learned about `font-family`, `font-style`, and different units for `font-size` such as absolute units (`px`) and relative units (`em`, `rem`, `%`), understanding how they relate to default browser sizes.
-- 📌 **Page Structures:** Practiced building pages with forms, tables, lists, and section-based layouts.
-- 📌 **Layout Practice:** Worked on multiple styling exercises in the CSS Layout Techniques module and started responsive design basics with Bootstrap.
+- 📌 **CSS Box Model & Positioning:** Explored the CSS Box Model and positioning techniques (absolute, relative, etc.) to control element layout and flow.
+- 📌 **Semantic HTML & Layouts:** Built foundational webpage layouts using modern HTML5 semantic tags (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`).
+- 📌 **Responsive Design & CSS Grid:** Implemented advanced CSS Grid layouts (`grid-template-areas`) and applied media queries to ensure mobile responsiveness.
+- 📌 **Bootstrap 5:** Started the transition to CSS frameworks by linking Bootstrap 5 via CDN to utilize pre-built, responsive design templates.
 
 ---
 
