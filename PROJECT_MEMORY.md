@@ -2,7 +2,7 @@
 repo_type: chronological-learning-journal
 author: Arun Kumar | github: mrarunkumar18
 goal: MERN stack mastery → Cybersecurity
-status_date: 2026-04
+status_date: 2026-04-23
 
 ---
 
@@ -40,8 +40,15 @@ root/
     layout/
       index.html        → FULL PAGE: header+nav+aside+article+footer (semantic)
       style.css         → MOST COMPLEX FILE: flexbox section + @media(max-width:500px)
-  05_JavaScript/        → Bootstrap + JS start
+  05_JavaScript/        → Bootstrap 5 components + JS start
     first.html          → Bootstrap5 CDN linked; container>row grid skeleton
+    typo.html           → Bootstrap typography utilities
+    forms.html          → Bootstrap styled form inputs
+    data.html           → Bootstrap buttons (outline, sizes) + Cards (card-img-top, card-title, card-text) + responsive grid
+    layout.html         → FULL PAGE: responsive Navbar (brand, links, dropdown, search, dark theme)
+                          + Carousel (indicators, prev/next controls)
+                          + Modal (fade, id, trigger btn, header/body/footer, dismiss)
+                          ⚠ FIXED: modal moved to body-level (was broken inside navbar collapse)
     note.txt            → Bootstrap: CDN link, 12-col grid system
   README.md             → portfolio readme: progress table, notes, setup, future plan
   PROJECT_MEMORY.md     → this file
@@ -57,8 +64,8 @@ root/
 | 1 | Intro Web Basics | notes.txt | ✅ done |
 | 2 | HTML + Git | index/form/table/list/layout.html | ✅ done |
 | 3 | CSS Layout | style/second/fonts/pseudo*.html, my.css | ✅ done |
-| 4 | Responsive Design | BoxModel/positioning/grid.html, layout/ | 🔄 active |
-| 5 | JavaScript | first.html (bootstrap skeleton only) | 🟡 started |
+| 4 | Responsive Design | BoxModel/positioning/grid.html, layout/ | ✅ done |
+| 5 | JavaScript | first/typo/forms/data/layout.html (Bootstrap 5 components) | 🔄 active |
 | 6 | Backend Node/Express | - | ⏳ pending |
 | 7 | MongoDB/Mongoose | - | ⏳ pending |
 | 8 | Projects + AI | - | ⏳ pending |
@@ -127,18 +134,49 @@ root/
 
 ### Bootstrap 5
 - link via CDN in <head> (css) + before </body> (js bundle)
-- 12-column grid: container > row > col-* (col-6 = half width)
-- currently: skeleton only (container+row) — columns not yet filled
+- 12-column grid: container > row > col-* (col-sm, col-md breakpoints)
+
+#### Buttons
+- `btn btn-outline-primary` → outline style | `btn-lg` / `btn-sm` → size modifiers
+
+#### Cards
+- `.card` > `card-img-top` + `card-title` + `card-text` + `btn`
+- set width via `style="width: 18rem"`
+
+#### Navbar
+- `navbar navbar-expand-lg` → collapses to hamburger on small screens
+- `data-bs-theme="dark"` → dark color scheme
+- `navbar-brand` → logo/name link
+- `navbar-toggler` + `collapse navbar-collapse` → hamburger toggle
+- `navbar-nav` + `nav-item` + `nav-link` → nav links
+- `dropdown` + `data-bs-toggle="dropdown"` + `dropdown-menu` → nested dropdown
+- `nav-link disabled` → grayed-out non-clickable link
+- `d-flex` form inside navbar → inline search box
+
+#### Carousel
+- `carousel slide` wrapper + `id` required
+- `carousel-indicators` → dot buttons (data-bs-slide-to="0/1/2", class="active" on first)
+- `carousel-inner` > `carousel-item` (first must have `active`)
+- `carousel-control-prev/next` → arrow buttons (data-bs-slide="prev/next")
+
+#### Modal ⚠ IMPORTANT RULE
+- modal `<div>` must be a **direct child of `<body>`** — NEVER nest inside navbar or other components
+- `class="modal fade"` + unique `id` + `tabindex="-1"` + `aria-labelledby` + `aria-hidden="true"`
+- trigger button: `data-bs-toggle="modal"` + `data-bs-target="#modalId"`
+- structure: `.modal-dialog` > `.modal-content` > `.modal-header` + `.modal-body` + `.modal-footer`
+- close: `data-bs-dismiss="modal"` on any button
+- `aria-labelledby` on modal div → matches `id` on `.modal-title` (accessibility)
 
 ---
 
 ## KEY FILES (most important)
 
-1. `04_Responsive/layout/style.css` → most complete CSS: flexbox + media query
-2. `04_Responsive/layout/index.html` → most complete HTML: full semantic page
-3. `04_Responsive/grid.html` → CSS Grid 2D demo with grid-template-areas
-4. `03_CSS-Layout/pseudo-elements.html` → ::before with external image content
-5. `05_JavaScript/first.html` → Bootstrap 5 CDN entry point
+1. `05_JavaScript/layout.html` → MOST COMPLEX: navbar + carousel + modal (Bootstrap 5 full page)
+2. `05_JavaScript/data.html` → Bootstrap buttons + cards + responsive grid
+3. `04_Responsive/layout/style.css` → most complete CSS: flexbox + media query
+4. `04_Responsive/layout/index.html` → full semantic page: header+nav+aside+article+footer
+5. `04_Responsive/grid.html` → CSS Grid 2D demo with grid-template-areas
+6. `03_CSS-Layout/pseudo-elements.html` → ::before with external image content
 
 ---
 
@@ -153,7 +191,10 @@ root/
 ---
 
 ## NEXT ACTIONS
-- [ ] Complete Bootstrap grid columns (col-* classes) in first.html
-- [ ] Start JavaScript: variables, data types, operators
-- [ ] DOM manipulation: document.querySelector, addEventListener
-- [ ] ES6: let/const, arrow functions, template literals, destructuring
+- [x] Bootstrap 5 grid, buttons, cards ✅
+- [x] Bootstrap 5 navbar (responsive, dropdown, dark theme) ✅
+- [x] Bootstrap 5 carousel ✅
+- [x] Bootstrap 5 modal (fixed placement bug) ✅
+- [ ] Start JavaScript: variables, data types, operators, expressions
+- [ ] DOM manipulation: document.querySelector, getElementById, addEventListener
+- [ ] ES6: let/const, arrow functions, template literals, destructuring, spread/rest
