@@ -1,0 +1,29 @@
+--> ** Javascript : It is a programming language used to make web pages interactive and dynamic. It is case-sensitive language. It is clint side language(execute through browser.) , when node js introduced it becames server side also it means we can run js outside the browser. 
+   *** Javascript is used for both client and server side programming. 
+      -> Client side : execute by the browser. (front-end)
+      -> Server side : execute by the node js. node js runtime environment. (back-end) 
+
+    -> Javascript is work on ECMAScript standard (ES) ,ECMAScript is a international standard 
+        ** ECMAScript = Javascript 
+    
+      ->ECMAScript have many versions.
+        ** ES1 , ES2 , ES3 , ES4 , ES5 , ES6 , ES7 , ES8 , ES9 , ES10 , ES11 , ES12 , ES13 , ES14 , ES15 , ES16 , ES17 , ES18 , ES19 , ES20 , ES21 , ES22 , ES23 , ES24 
+        *** ES6 is the most important version of ECMAScript. (new features are introduced in ES6)
+    
+    -> when we execute javascript code , it execute in a browser
+        ->  Every browser have a javascript engine which execute the javascript code.
+            ->  Google Chrome have V8 engine.
+            ->  Mozilla Firefox have SpiderMonkey engine.
+            ->  Microsoft Edge have Chakra engine.
+            ->  Safari have JavaScriptCore engine.
+
+        -> Javascript is case sensitive language 
+        -> extension of javascript file is .js
+        ->How we run js code in html
+            -> <script src="filename.js"></script>  --> external file 
+            -> <script> </script>  --> internal file 
+          
+
+   
+
+   
