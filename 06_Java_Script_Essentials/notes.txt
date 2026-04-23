@@ -24,6 +24,63 @@
             -> <script> </script>  --> internal file 
           
 
-   
+    -> How we print data in a browser (output)
+       1) document.write("Hello World")
+       2) console.log("Hello World") --> open inspect element 
+       3) alert("Hello World") --> show popup 
+       4) document.getElementById("id").innerHTML = "Hello World";
+       5) prompt("Enter your name") --> show input box (we can also print the input value)
+       6) document.getElementById("id").textContent = "Hello World";
 
-   
+    -> console : here we find all javascript error messages, 
+       -> when error occure in a webpage , webpage freeze 
+       -> in console we can also write js code and execute it 
+       -> console have 5 tabs
+         1) console
+         2) source
+         3) network
+         4) performance
+         5) application
+
+         console.log("hello") it will display output in console tab 
+         alert("hello") it will display output in popup box 
+         
+         comments : describe the code (hidden in browser)
+            -> //  --> single line comment
+            -> /* */  --> multi line comment
+            -> /** */ --> multiple line comment (documentation)
+
+
+      -> how Javascript code is exexuted
+        -> Code is Loaded
+        -> Execution context is created 
+        -> Code runs line by line 
+        -> Functions go to callstack 
+        -> Event loop manage execution flow 
+
+
+        1. Js engine execute the js code 
+           - Read js Code
+           - Convert it into machine code (Binary Code) 
+           - Execute it 
+        2. Execution context
+           - when js run , its create an executin context
+             -- 3 Typers of execution context
+                1) Global Execution Context :
+                2) Function Execution Context 
+                3) Eval Execution Context 
+        3. Javascript is run in 2 phases 
+           - phase 1 : Memory Creation Phase(Hoising)
+              --Variables and funtions are store in a memory 
+           - phase 2 : Code Executin phase 
+              --Actual Values are assigned 
+              
+
+      -> *** Javascript is a single threaded language (it can execute one task at a time) 
+         - Synchronous : code is executed line by line 
+         - Asynchronous : code is executed when the task is completed (non-blocking) 
+
+            callstack --> Event Loop --> Callback Queue --> Web API
+            callstack <-- Event Loop --> Callback Queue --> Web API
+            
+
