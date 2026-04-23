@@ -78,8 +78,8 @@ I am breaking down the vast ecosystem of web development into structured, manage
 | 🟢 **Module 1: Introduction** | Orientation, Foundation, Web Basics | ✅ Completed |
 | 🟡 **Module 2: Frontend Basics** | HTML Structure, Forms, Tables, Core CSS | ✅ Completed |
 | 🟠 **Module 3: CSS Layout Techniques** | Typography, Pseudo-classes/elements, Styling Practice | ✅ Completed |
-| 🟣 **Module 4: Responsive Design (Bootstrap)** | Box Model, Positioning, CSS Grid, Semantic Layouts, Media Queries | 🔄 In Progress |
-| 🔵 **Module 5: JavaScript (Foundation)** | Bootstrap 5 Intro, Basics, DOM Manipulation, ES6 | 🟡 Started |
+| 🟣 **Module 4: Responsive Design (Bootstrap)** | Box Model, Positioning, CSS Grid, Semantic Layouts, Media Queries, Bootstrap 5 (Navbar, Cards, Carousel, Modal, Forms, Grid System) | ✅ Completed |
+| 🔵 **Module 5: JavaScript (Foundation)** | Bootstrap 5 Components, Basics, DOM Manipulation, ES6 | 🔄 In Progress |
 | 🟤 **Module 6: Backend** | Node.js, Express.js, APIs | ⏳ Pending |
 | ⚫ **Module 7: Database** | MongoDB, Mongoose | ⏳ Pending |
 | 🔴 **Module 8: Projects + AI** | Full Stack Projects, AI Integration | ⏳ Pending |
@@ -88,7 +88,7 @@ I am breaking down the vast ecosystem of web development into structured, manage
 
 ## 📝 My Notes
 
-**Recent Learnings - HTML/CSS Journey:**
+**Recent Learnings - Bootstrap 5 & JS Foundation Journey:**
 - 📌 **CSS Integration:** Effectively applied styles using Inline (`style=""`), Internal (`<style>`), and External (`<link rel="stylesheet">`) methods.
 - 📌 **CSS Selectors:** Understanding how to precisely target DOM elements using:
   - Universal (`*`), Element/Tag (`h1`, `p`), Class (`.className`), ID (`#idName`), and Grouping (`h1, h2, p`).
@@ -98,7 +98,14 @@ I am breaking down the vast ecosystem of web development into structured, manage
 - 📌 **CSS Box Model & Positioning:** Explored the CSS Box Model and positioning techniques (absolute, relative, etc.) to control element layout and flow.
 - 📌 **Semantic HTML & Layouts:** Built foundational webpage layouts using modern HTML5 semantic tags (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`).
 - 📌 **Responsive Design & CSS Grid:** Implemented advanced CSS Grid layouts (`grid-template-areas`) and applied media queries to ensure mobile responsiveness.
-- 📌 **Bootstrap 5:** Started the transition to CSS frameworks by linking Bootstrap 5 via CDN to utilize pre-built, responsive design templates.
+- 📌 **Bootstrap 5 — CDN & Grid System:** Linked Bootstrap 5.3 via CDN and mastered its 12-column responsive grid (`col-sm`, `col-md`, etc.) for fluid, adaptive layouts.
+- 📌 **Bootstrap 5 — Components:** Built production-ready UI components including:
+  - 🔘 **Buttons** — outline variants, size modifiers (`btn-lg`, `btn-sm`)
+  - 🃏 **Cards** — image cards with `card-img-top`, `card-title`, `card-text`, and action buttons
+  - 🧭 **Navbar** — responsive collapsible navbar with brand logo, nav links, dropdown menu, search form, and dark theme (`data-bs-theme="dark"`)
+  - 🎠 **Carousel** — image slideshow with indicators, prev/next controls, and auto-slide
+  - 💬 **Modal** — dialog boxes with header, body, footer, and close controls
+  - 📝 **Forms** — styled form inputs integrated within the navbar search
 
 ---
 
@@ -125,8 +132,8 @@ code .
 
 ## 🎯 Future Plan
 
-- **Short-term:** Complete responsive design fundamentals and begin JavaScript basics + DOM manipulation.
-- **Mid-term:** Build and deploy 3 fully functional, full-stack projects using custom REST APIs.
+- **Short-term:** Complete JavaScript fundamentals (variables, functions, DOM manipulation, ES6 features).
+- **Mid-term:** Build and deploy 3 fully functional, full-stack projects using React + Node.js + custom REST APIs.
 - **Long-term:** Master basic web security principles (Cybersecurity) to ensure my apps are safe for production, and apply for remote full-stack internships.
 
 ---
