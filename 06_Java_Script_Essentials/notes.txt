@@ -82,5 +82,18 @@
 
             callstack --> Event Loop --> Callback Queue --> Web API
             callstack <-- Event Loop --> Callback Queue --> Web API
-            
 
+--> Download and install node js in system 
+    - node js is a runtime environment for executing javascript code outside the browser. 
+    - it is built on google chrome's v8 engine. 
+    - it is used for server side programming. 
+    - it is open source and cross platform. 
+    - it is used for building web applications, command line tools, and desktop applications.
+    - when we install node js in our system , it also install npm (node package manager) which is used for managing packages and dependencies in node js projects.
+          how to check node js and npm version in terminal
+          - node -v
+          - npm -v
+
+  --> 
+      Variables , datatypes , operators , functions , objects , arrays , loops , conditional statements , events , dom manipulation , es6 features (let, const, arrow functions, template literals, destructuring, spread operator, rest operator, classes, modules)
+      
