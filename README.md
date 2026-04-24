@@ -1,7 +1,7 @@
 # 🚀 MERN Full Stack Development with AI
-> *A structured journey from web fundamentals to building intelligent, AI-powered full-stack applications.*
+> *A structured journey from web fundamentals to JavaScript essentials, then toward MERN stack development and AI-powered applications.*
 
-This repository contains my complete journey of learning **MERN Stack Development (MongoDB, Express, React, Node.js)** alongside practical AI integrations.
+This repository documents my learning path through **HTML, CSS, responsive design, JavaScript fundamentals, and practical AI integrations** as I build toward full-stack development.
 
 ---
 
@@ -9,7 +9,7 @@ This repository contains my complete journey of learning **MERN Stack Developmen
 
 This project is a living documentation of my path to becoming a Full Stack Developer. It tracks my progress through hands-on coding, problem-solving, and integrating Next-Gen AI tools into modern development workflows.
 
-- 📚 **Learning Path:** Based on the "MERN Full Stack Development with AI" course
+- 📚 **Learning Path:** Based on the "MERN Full Stack Development with AI" course and the supporting practice folders in this repo
 - 🎥 **Course Playlist:** [Watch Full Playlist](https://www.youtube.com/playlist?list=PLEX4WMOGG-DTk3b1tmhchkNJ6hH5iJlSC)
 - 🎯 **Primary Goal:** Master the MERN stack and transition towards secure web application development (Cybersecurity).
 
@@ -51,21 +51,27 @@ I am breaking down the vast ecosystem of web development into structured, manage
 - CSS
 - Responsive Design
 
-### 🔵 Module 3: JavaScript
+### 🔵 Module 3: JavaScript Foundation
 - Basics
 - DOM Manipulation
 - ES6 Concepts
 
-### 🟣 Module 4: Backend
+### 🟣 Module 4: JavaScript Essentials
+- Variables
+- Data Types
+- Operators
+- Functions
+
+### 🟠 Module 5: Backend
 - Node.js
 - Express.js
 - APIs
 
-### 🟠 Module 5: Database
+### 🟡 Module 6: Database
 - MongoDB
 - Mongoose
 
-### 🔴 Module 6: Projects + AI
+### 🔴 Module 7: Projects + AI
 - Full Stack Projects
 - AI Integration
 
@@ -79,10 +85,11 @@ I am breaking down the vast ecosystem of web development into structured, manage
 | 🟡 **Module 2: Frontend Basics** | HTML Structure, Forms, Tables, Core CSS | ✅ Completed |
 | 🟠 **Module 3: CSS Layout Techniques** | Typography, Pseudo-classes/elements, Styling Practice | ✅ Completed |
 | 🟣 **Module 4: Responsive Design (Bootstrap)** | Box Model, Positioning, CSS Grid, Semantic Layouts, Media Queries, Bootstrap 5 (Navbar, Cards, Carousel, Modal, Forms, Grid System) | ✅ Completed |
-| 🔵 **Module 5: JavaScript (Foundation)** | Bootstrap 5 Components, Basics, DOM Manipulation, ES6 | 🔄 In Progress |
-| 🟤 **Module 6: Backend** | Node.js, Express.js, APIs | ⏳ Pending |
-| ⚫ **Module 7: Database** | MongoDB, Mongoose | ⏳ Pending |
-| 🔴 **Module 8: Projects + AI** | Full Stack Projects, AI Integration | ⏳ Pending |
+| 🔵 **Module 5: JavaScript Foundation** | Bootstrap 5 components, responsive layouts, JavaScript kickoff | ✅ Completed |
+| 🟣 **Module 6: JavaScript Essentials** | Variables, data types, operators, functions, first.js practice | 🔄 In Progress |
+| 🟤 **Module 7: Backend** | Node.js, Express.js, APIs | ⏳ Pending |
+| ⚫ **Module 8: Database** | MongoDB, Mongoose | ⏳ Pending |
+| 🔴 **Module 9: Projects + AI** | Full Stack Projects, AI Integration | ⏳ Pending |
 
 ---
 
@@ -106,6 +113,10 @@ I am breaking down the vast ecosystem of web development into structured, manage
   - 🎠 **Carousel** — image slideshow with indicators, prev/next controls, and auto-slide
   - 💬 **Modal** — dialog boxes with header, body, footer, and close controls
   - 📝 **Forms** — styled form inputs integrated within the navbar search
+
+**Recent Learnings - JavaScript Essentials:**
+- 📌 **Core Syntax:** Practicing variables, data types, operators, and basic expressions in `first.js`.
+- 📌 **JavaScript Basics:** Building confidence with simple scripts before moving into DOM manipulation and event handling.
 
 ---
 
@@ -133,8 +144,8 @@ code .
 ## 🎯 Future Plan
 
 - **Short-term:** Complete JavaScript fundamentals (variables, functions, DOM manipulation, ES6 features).
-- **Mid-term:** Build and deploy 3 fully functional, full-stack projects using React + Node.js + custom REST APIs.
-- **Long-term:** Master basic web security principles (Cybersecurity) to ensure my apps are safe for production, and apply for remote full-stack internships.
+- **Mid-term:** Build and deploy 3 fully functional full-stack projects using React + Node.js + custom REST APIs.
+- **Long-term:** Master basic web security principles (Cybersecurity), keep improving AI-assisted workflows, and apply for remote full-stack internships.
 
 ---
 
