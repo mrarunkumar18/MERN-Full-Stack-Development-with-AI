@@ -1,63 +1,91 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Arun's Portfolio</title>
-  </head>
 
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="home">
-        <h2>Arun Singh</h2>
-        <h3>MERN Full Stack Web Developer</h3>
-        <button>Hire me</button>
-        <p>
-          1st-year BCA student specializing in Cybersecurity and Information Security. My academic focus is on building a robust foundation in Computer Applications, with my learning actively oriented toward security-centric applications.
-        </p>
-      </section>
-      <section id="about">
-        <h2>About</h2>
-        <p>
-          1st-year BCA student specializing in Cybersecurity and Information Security. My academic focus is on building a robust foundation in Computer Applications, with my learning actively oriented toward security-centric applications. My Goal: To become a skilled Cybersecurity Specialist mitigating modern digital threats. I am currently focused on: Mastering Operating Systems & Networking. Exploring Python for security automation. Learning Vulnerabilities and Threat Modeling. Security is the foundation. Let's discuss how I can apply my growing knowledge to your team or projects.
-        </p>
-      </section>
-      <section id="skills">
-        <h2>Skills</h2>
-        
-        <ul>
-            <li><b>HTML/CSS </b> → Intermediate</li>
-            <li><b>JavaScript</b> → Beginner</li>
-            <li><b>C</b> → Beginner</li>
-        </ul>
-      </section>
-      <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><b>Projects 1: </b>Portfolio Website </li>
-            <li><b>Projects 2:</b>Smart todo tool</li>
-        </ul>
-      </section>
-      <section id="contact">
-        <h2>Contact</h2>
-        <section><h3>Social links</h3></section>
-        <section><h3>Contect us</h3></section>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arun's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-    </main>
-    <footer>
-      <p>&copy; 2026 arun's portfolio. All rights reserved.</p>
-    </footer>
-  </body>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h1>Arun Singh</h1>
+      <h3>MERN Full Stack Web Developer</h3>
+      <a href="#contact">Hire me</a>
+      <p>
+        1st-year BCA student specializing in Cybersecurity and Information Security. My academic focus is on building a
+        robust foundation in Computer Applications, with my learning actively oriented toward security-centric
+        applications.
+      </p>
+    </section>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        1st-year BCA student specializing in Cybersecurity and Information Security. My academic focus is on building a
+        robust foundation in Computer Applications, with my learning actively oriented toward security-centric
+        applications. My Goal: To become a skilled Cybersecurity Specialist mitigating modern digital threats. I am
+        currently focused on: Mastering Operating Systems & Networking. Exploring Python for security automation.
+        Learning Vulnerabilities and Threat Modeling. Security is the foundation. Let's discuss how I can apply my
+        growing knowledge to your team or projects.
+      </p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+
+      <ul>
+        <li><b>HTML/CSS </b> → Intermediate</li>
+        <li><b>JavaScript</b> → Beginner</li>
+        <li><b>C</b> → Beginner</li>
+      </ul>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <b>Portfolio Website</b> - A personal website to showcase my skills and projects using HTML and CSS and JS
+        </li>
+        <li>
+          <b>Social Links</b> - Google, Github, Linkedin, Youtube, Instagram, etc...
+
+        </li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <section>
+        <h3>Social links</h3>
+      </section>
+      <section>
+        <h3>Contact us</h3>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="email" required>
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder="Your message" required></textarea>
+          <button type="Submit">Send Message</button>
+        </form>
+      </section>
+    </section>
+
+  </main>
+  <footer>
+    <p>&copy; 2026 arun's portfolio. All rights reserved.</p>
+  </footer>
+</body>
+
 </html>
