@@ -1,0 +1,21 @@
+--> Javascript is a programming language that is commonly used to create interactive effects within web browsers. It allows developers to implement complex features on web pages, such as dynamic content updates, form validation, animations, and more. JavaScript can be used on both the client-side (in the browser) and the server-side (with environments like Node.js). It is an essential part of modern web development and works alongside HTML and CSS to create engaging user experiences.
+
+   -->Variables : are temporary memory location which hold data
+      -> Old javascript 
+          var varname = value;
+     -> Let keyword (block scoped)
+     let varname=value;
+       {
+        let x=10;
+       }     
+    -> Rules to define Variables name
+       1. Start with alphabate or _ or $
+       2. Cannot start with number
+       3. Can contain alphabate, number, _ and $
+       4. after that combination of (a-z, A-Z, 0-9, _ and $)
+       eg:
+       var name = "John";
+       let age = 30;
+       const PI = 3.14;   
+
+       
