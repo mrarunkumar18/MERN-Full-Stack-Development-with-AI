@@ -22,3 +22,10 @@
      const varname=value;
      eg:
      const PI = 3.14;
+
+
+  --> Data types : type declaration of variables. Javascript is an loosely typed langauge, it means datatypes is alloated at runtime as per the variabble value. 
+  eg;
+    let name = "John"; // String
+    let age = 30; // Number
+    let isStudent = true; // Boolean
