@@ -50,7 +50,6 @@
                 -= : it subtracts the right operand from the left operand and assigns the result to the left operand
                 *= : it multiplies the left operand by the right operand and assigns the result to the left operand
                 /= : it divides the left operand by the right operand and assigns the result to the left operand
-                
         3. Comparison/Relational Operators : ==, ===, !=, !==, >, <, >=, <=
             == : it checks only value
             === : it checks value and datatype both
@@ -72,4 +71,83 @@
 
         6. Ternary Operator : condition ? expression1 : expression2
                 It is a shorthand for an if-else statement. If the condition is true, expression1 is executed; otherwise, expression2 is executed.  
+                  eg:
+                  let result=(a>b ? "a is greater" : "b is greater");
+                  console.log(result); // Output: "a is greater" or "b is greater" depending on the values of a and b
+       -> Conditions (selection) (return boolean value)
+          1. if statement : it is used to execute a block of code if a specified condition is true
+               if(condition){
+                // code to be executed if the condition is true 
+               }
 
+          2. if...else statement : it is used to execute one block of code if a specified condition is true and another block of code if the condition is false
+                if(condition){
+                 // code to be executed if the condition is true 
+                }else{
+                 // code to be executed if the condition is false
+                }
+
+          3. else if statement : it is used to specify a new condition to test, if the first condition is false
+                if(condition1){
+                 // code to be executed if condition1 is true 
+                }else if(condition2){
+                 // code to be executed if condition2 is true
+                }else{
+                 // code to be executed if both condition1 and condition2 are false
+                }
+
+          4. switch statement : it is used to perform different actions based on different conditions
+                switch(expression){
+                 case value1:
+                  // code to be executed if expression matches value1
+                  break;
+                 case value2:
+                  // code to be executed if expression matches value2
+                  break;
+                 default:
+                  // code to be executed if expression doesn't match any of the cases
+                }
+
+          nested if statement : it is an if statement inside another if statement
+                if(condition1){
+                 // code to be executed if condition1 is true 
+                 if(condition2){
+                  // code to be executed if condition2 is true
+                 }
+                } 
+
+          switch statement with multiple cases : it is a switch statement that has multiple cases for the same block of code
+                switch(expression){
+                 case value1:
+                 case value2:
+                  // code to be executed if expression matches value1 or value2
+                  break;
+                 default:
+                  // code to be executed if expression doesn't match any of the cases
+                }      
+
+       -> Loops (iteration) : it is used to repeat a block of code as long
+            as a specified condition is true
+            1. for loop : it is used to repeat a block of code a specified number of times
+                    for(initialization; condition; increment/decrement){
+                     // code to be executed
+                    }
+    
+            2. while loop : it is used to repeat a block of code as long as a specified condition is true
+                    while(condition){
+                     // code to be executed
+                    }
+    
+            3. do...while loop : it is similar to the while loop, but it executes the block of code at least once before checking the condition
+                    do{
+                     // code to be executed
+                    }while(condition);
+              
+       *** input date at runtime using prompt() method
+            -> prompt() : to input data at runtime, it is a built-in function in JavaScript that displays a dialog box with an optional message prompting the user to input some text. The function returns the text entered by the user as a string. If the user clicks "Cancel" or closes the dialog box, it returns null.
+            eg:
+            let age = prompt("Enter your age:");
+                console.log("Your age is: " + age); // Output: Your age is: [age]
+
+            let name = prompt("Enter your name:");
+            console.log("Hello, " + name + "!"); // Output: Hello, [name]!       
