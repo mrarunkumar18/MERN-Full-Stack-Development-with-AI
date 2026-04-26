@@ -29,3 +29,9 @@
     let name = "John"; // String
     let age = 30; // Number
     let isStudent = true; // Boolean
+    let hobbies = ["reading", "gaming", "coding"]; // Array
+    let person = { name: "John", age: 30 }; // Object
+    let undefinedVariable; // Undefined
+    let nullVariable = null; // Null
+
+    
