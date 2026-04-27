@@ -2,7 +2,7 @@
 repo_type: chronological-learning-journal
 author: Arun Kumar | github: mrarunkumar18
 goal: MERN stack mastery → Cybersecurity
-status_date: 2026-04-24
+status_date: 2026-04-27
 
 ---
 
@@ -55,6 +55,18 @@ root/
     first.html            → JavaScript practice scaffold
     first.js              → variables, data types, operators, expressions
     notes.txt             → JavaScript core syntax and early fundamentals
+  07_javaScript_start/
+    Variables.html        → variables and naming rule practice
+    operators.html        → operator and expression practice
+    if_else_even_odd.html → if/else conditional practice
+    nested.html           → nested condition practice
+    prompt-add.html       → prompt() input practice
+    note.txt              → JavaScript notes: variables, constants, operators, conditions, loops
+  Projects/
+    Portfolio_Website/
+      index.html          → personal portfolio single-page layout
+      styles.css          → portfolio styling and responsive adjustments
+    Project 2/            → placeholder for next project
   README.md               → portfolio readme: progress table, notes, setup, future plan
   PROJECT_MEMORY.md       → this file
 ```
@@ -72,9 +84,10 @@ root/
 | 4 | Responsive Design | 04_Responsive Design with Bootstrap/BoxModel, positioning, grid.html, layout/ | ✅ done |
 | 5 | JavaScript Foundation | 05_javaScript_foundatinon/*.html, note.txt, tailwind/first.html | ✅ done |
 | 6 | JavaScript Essentials | 06_Java_Script_Essentials/first.html, first.js, notes.txt | 🔄 active |
-| 7 | Backend Node/Express | not started | ⏳ pending |
-| 8 | MongoDB/Mongoose | not started | ⏳ pending |
-| 9 | Projects + AI | not started | ⏳ pending |
+| 7 | JavaScript Start (Control Flow) | 07_javaScript_start/*.html, note.txt | 🔄 active |
+| 8 | Backend Node/Express | not started | ⏳ pending |
+| 9 | MongoDB/Mongoose | not started | ⏳ pending |
+| 10 | Projects + AI | Projects/Portfolio_Website, Project 2 | 🔄 active |
 
 ---
 
@@ -196,6 +209,12 @@ root/
 - expressions: simple calculations and output checks in first.js
 - next step is DOM selection and event handling
 
+### JavaScript Start (Control Flow)
+- conditionals: if, if...else, else if, nested if
+- operator practice: arithmetic, assignment, comparison, logical, ternary
+- runtime input with prompt()
+- practice files: Variables.html, operators.html, if_else_even_odd.html, nested.html, prompt-add.html
+
 ---
 
 ## KEY FILES (most important)
@@ -206,7 +225,9 @@ root/
 4. 04_Responsive Design with Bootstrap/layout/index.html → full semantic page: header + nav + aside + article + footer
 5. 04_Responsive Design with Bootstrap/grid.html → CSS Grid 2D demo with grid-template-areas
 6. 03_CSS Layout Techniques/pseudo-elements.html → ::before and ::after practice
-7. 06_Java_Script_Essentials/first.js → first JavaScript syntax practice file
+7. 06_Java_Script_Essentials/first.js → JavaScript syntax practice file
+8. 07_javaScript_start/operators.html → operators and conditional logic practice
+9. Projects/Portfolio_Website/index.html → personal portfolio with Home/About/Skills/Projects/Contact sections
 
 ---
 
@@ -217,6 +238,7 @@ root/
 - The clearest progress boundary right now is between Bootstrap-heavy JavaScript Foundation work and actual JavaScript syntax practice.
 - The modal placement issue in Bootstrap was a useful bug fix: modal components need to live as direct children of <body>.
 - Tailwind exists as a small side experiment inside the JavaScript Foundation folder, but it is not the main learning track.
+- A dedicated Projects area is now active with a portfolio website and a placeholder second project.
 
 ---
 
@@ -238,9 +260,11 @@ learn concept → write in note.txt (own words)
 - [x] Bootstrap 5 carousel ✅
 - [x] Bootstrap 5 modal (fixed placement bug) ✅
 - [x] JavaScript Foundation completed with Bootstrap 5 and layout practice ✅
+- [x] JavaScript Start module added: variables, operators, if/else, nested conditions, prompt input ✅
 - [ ] JavaScript Essentials: variables, data types, operators, expressions
+- [ ] JavaScript Essentials: functions, arrays, and objects
 - [ ] DOM manipulation: document.querySelector, getElementById, addEventListener
 - [ ] ES6: let/const, arrow functions, template literals, destructuring, spread/rest
 - [ ] Backend: Node.js, Express.js, APIs
 - [ ] Database: MongoDB, Mongoose
-- [ ] Projects + AI: full-stack apps with AI features
+- [ ] Projects + AI: expand Portfolio Website and start Project 2
