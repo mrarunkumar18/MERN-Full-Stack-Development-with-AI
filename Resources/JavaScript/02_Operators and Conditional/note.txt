@@ -10,7 +10,42 @@
  * It is used to explain the code.
  */ --> Docstring
 
---> Arithmetic Operators: 
-        +, -, *, /, %, **
+--> Arithmetic Operators: Used for mathematical operations.
 
---> 
+        +, -, *, /, %, ** 
+
+        + : Addition or Concatenation
+        - : Subtraction
+        * : Multiplication
+        / : Division
+        % : Modulus
+        ** : Exponentiation
+
+
+
+     * Moudulus --> Returns the remainder of the division. (Ex : 5 % 2 = 1)
+     * Exponentiation --> Returns the result of raising the first operand to the power of the second operand. (Ex : 5 ** 2 = 25)
+     * Increment --> Increments the value of the operand by 1. (Ex : 5++ = 6)
+     * Decrement --> Decrements the value of the operand by 1. (Ex : 5-- = 4)
+
+    Assignment Operator --> Used to assign values to variables.
+
+        = : Assignment
+        += : Addition and Assignment (Ex : a += b is same as a = a + b)
+        -= : Subtraction and Assignment (Ex : a -= b is same as a = a - b)
+        *= : Multiplication and Assignment (Ex : a *= b is same as a = a * b)
+        /= : Division and Assignment (Ex : a /= b is same as a = a / b)
+        %= : Modulus and Assignment (Ex : a %= b is same as a = a % b)
+        **= : Exponentiation and Assignment (Ex : a **= b is same as a = a ** b)
+
+    Comparison Operator --> Used to compare two values.
+
+        == : Equal to
+        != : Not equal to
+        === : Strictly equal to
+        !== : Strictly not equal to
+        > : Greater than
+        < : Less than
+        >= : Greater than or equal to
+        <= : Less than or equal to
+
