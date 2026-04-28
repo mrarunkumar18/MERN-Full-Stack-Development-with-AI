@@ -1,2 +1,14 @@
 javascript : JS is a programming language . we use it to give instruction to the computer .
 
+   we can wite can code editor like VS code or directly on browser console by pressing F12.
+
+   How browser understand JS code ?
+   The JS code is executed by the JS engine of the browser.
+   
+   -> Our first Js code:
+         console.log("Hello World");
+    
+  
+  # Variables : They are containers for data values.
+          
+        
