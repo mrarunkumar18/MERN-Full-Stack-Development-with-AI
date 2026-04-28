@@ -1,0 +1,16 @@
+--> Comments in JS: part of code which is not executed by the interpreter.
+
+// Single line comment
+
+/* Multiline comment */ --> Simple multiline comment
+
+
+/**
+ * This is a multiline comment.
+ * It is used to explain the code.
+ */ --> Docstring
+
+--> Arithmetic Operators: 
+        +, -, *, /, %, **
+
+--> 
