@@ -29,5 +29,13 @@ javascript : JS is a programming language . we use it to give instruction to the
 
           *const : Variable can neither be re-declared nor updated. A block scope.        
 
-               
+   # Data types : number, string, null, undefined, boolean, symbol, object. 
+
+          * Primitive types:
+                   Number, string, null, undefined, boolean, symbol 
+
+          * Non - Primitive types: Object, Array, Function, Set, Map, WeakMap, WeakSet 
+          
+   # Type Conversion : 
+
 
