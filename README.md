@@ -91,7 +91,7 @@ I am breaking down the vast ecosystem of web development into structured, manage
 | 🟠 **Module 3: CSS Layout Techniques** | Typography, Pseudo-classes/elements, Styling Practice | ✅ Completed |
 | 🟣 **Module 4: Responsive Design (Bootstrap)** | Box Model, Positioning, CSS Grid, Semantic Layouts, Media Queries, Bootstrap 5 (Navbar, Cards, Carousel, Modal, Forms, Grid System) | ✅ Completed |
 | 🔵 **Module 5: JavaScript Foundation** | Bootstrap 5 components, responsive layouts, JavaScript kickoff | ✅ Completed |
-| 🟣 **Module 6: JavaScript Essentials** | Variables, data types, operators, expressions, first.js practice | 🔄 In Progress |
+| 🟣 **Module 6: JavaScript Essentials** | Variables, scope (let/const/var), data types (primitives, objects), operators | 🔄 In Progress |
 | 🟤 **Module 7: JavaScript Start (Control Flow)** | Variables recap, operators, if/else, nested conditions, prompt input | 🔄 In Progress |
 | 🟠 **Module 8: Backend** | Node.js, Express.js, APIs | ⏳ Pending |
 | ⚫ **Module 9: Database** | MongoDB, Mongoose | ⏳ Pending |
@@ -120,9 +120,11 @@ I am breaking down the vast ecosystem of web development into structured, manage
   - 💬 **Modal** — dialog boxes with header, body, footer, and close controls
   - 📝 **Forms** — styled form inputs integrated within the navbar search
 
-**Recent Learnings - JavaScript Essentials:**
-- 📌 **Core Syntax:** Practicing variables, data types, operators, and basic expressions in `first.js`.
-- 📌 **JavaScript Basics:** Building confidence with simple scripts before moving into DOM manipulation and event handling.
+**Recent Learnings - JavaScript Essentials & Data Types:**
+- 📌 **Variable Declarations:** Mastered the differences between `let` (block scope, mutable), `const` (block scope, immutable reference), and `var` (global/function scope) along with standard naming rules.
+- 📌 **Data Types:** Explored primitive types (`Number`, `String`, `Boolean`, `Undefined`, `Null`, `BigInt`, `Symbol`) and non-primitive types.
+- 📌 **Objects:** Created and manipulated Objects as key-value pairs. Learned to access and modify properties using dot notation (`student.age`) and bracket notation (`student["age"]`).
+- 📌 **Practical Exercises:** Solved practice questions in `PQ1.js` and `PQ2.js`, and practiced syntax in `first.js` via an integrated `index.html`.
 
 **Recent Learnings - JavaScript Start (Control Flow):**
 - 📌 **Conditionals:** Practiced `if`, `if...else`, `else if`, and nested decision logic.

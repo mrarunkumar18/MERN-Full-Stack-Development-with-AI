@@ -67,6 +67,14 @@ root/
       index.html          → personal portfolio single-page layout
       styles.css          → portfolio styling and responsive adjustments
     Project 2/            → placeholder for next project
+  Resources/
+    JavaScript/
+      Variables & Data_types/
+        index.html        → JS integration in HTML
+        first.js          → variable declarations, scope (let/const/var), primitives, objects
+        PQ1.js            → practice questions part 1
+        PQ2.js            → practice questions part 2
+        note.txt          → theory: variables rules, data types, objects
   README.md               → portfolio readme: progress table, notes, setup, future plan
   PROJECT_MEMORY.md       → this file
 ```
@@ -85,6 +93,7 @@ root/
 | 5 | JavaScript Foundation | 05_javaScript_foundatinon/*.html, note.txt, tailwind/first.html | ✅ done |
 | 6 | JavaScript Essentials | 06_Java_Script_Essentials/first.html, first.js, notes.txt | 🔄 active |
 | 7 | JavaScript Start (Control Flow) | 07_javaScript_start/*.html, note.txt | 🔄 active |
+| - | JavaScript Variables & Data Types | Resources/JavaScript/Variables & Data_types/* | ✅ done |
 | 8 | Backend Node/Express | not started | ⏳ pending |
 | 9 | MongoDB/Mongoose | not started | ⏳ pending |
 | 10 | Projects + AI | Projects/Portfolio_Website, Project 2 | 🔄 active |
@@ -203,10 +212,12 @@ root/
 - modal placement bug was fixed by moving it to body level
 
 ### JavaScript Essentials
-- variables: let, const, var basics
-- data types: string, number, boolean, null, undefined, object
+- variables: let, const, var basics and block vs global scoping
+- data types: primitives (string, number, boolean, null, undefined, BigInt, Symbol)
+- non-primitives: Objects (key-value pairs, accessing properties via dot and bracket notation)
 - operators: arithmetic, assignment, comparison, logical
 - expressions: simple calculations and output checks in first.js
+- practice files: Resources/JavaScript/Variables & Data_types/first.js, PQ1.js, PQ2.js
 - next step is DOM selection and event handling
 
 ### JavaScript Start (Control Flow)
@@ -225,7 +236,7 @@ root/
 4. 04_Responsive Design with Bootstrap/layout/index.html → full semantic page: header + nav + aside + article + footer
 5. 04_Responsive Design with Bootstrap/grid.html → CSS Grid 2D demo with grid-template-areas
 6. 03_CSS Layout Techniques/pseudo-elements.html → ::before and ::after practice
-7. 06_Java_Script_Essentials/first.js → JavaScript syntax practice file
+7. Resources/JavaScript/Variables & Data_types/first.js → JavaScript syntax, scope, and object practice
 8. 07_javaScript_start/operators.html → operators and conditional logic practice
 9. Projects/Portfolio_Website/index.html → personal portfolio with Home/About/Skills/Projects/Contact sections
 
@@ -261,8 +272,8 @@ learn concept → write in note.txt (own words)
 - [x] Bootstrap 5 modal (fixed placement bug) ✅
 - [x] JavaScript Foundation completed with Bootstrap 5 and layout practice ✅
 - [x] JavaScript Start module added: variables, operators, if/else, nested conditions, prompt input ✅
-- [ ] JavaScript Essentials: variables, data types, operators, expressions
-- [ ] JavaScript Essentials: functions, arrays, and objects
+- [x] JavaScript Essentials: variables, data types, scoping rules, and objects ✅
+- [ ] JavaScript Essentials: functions and arrays
 - [ ] DOM manipulation: document.querySelector, getElementById, addEventListener
 - [ ] ES6: let/const, arrow functions, template literals, destructuring, spread/rest
 - [ ] Backend: Node.js, Express.js, APIs
