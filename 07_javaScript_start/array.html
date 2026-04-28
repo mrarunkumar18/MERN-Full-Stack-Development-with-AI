@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array example</title>
+</head>
+<body>
+    <h2>Array example</h2>
+    <script>
+        // let arr=[23,4,5,,67,8,9];
+        // let sum=0;
+        // for(let i=0; i<arr.length; i++){
+        //     console.log(arr[i])
+        //     sum+=arr[i]
+        //     }
+
+        // console.log("sum of elements of array is "+sum);
+        // document.write("sum of elements of array is "+sum);
+
+      let arr=[23,4,5,,67,8,9];
+      let sum=0;
+      arr.forEach(function(val,index){
+        console.log(val,index)
+        sum+=val
+      })
+    console.log(`the sum of elements of array is ${sum}`)
+      document.write("sum of elements of array is "+sum);
+
+    </script>
+</body>
+</html>
