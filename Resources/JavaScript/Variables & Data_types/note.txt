@@ -9,6 +9,25 @@ javascript : JS is a programming language . we use it to give instruction to the
          console.log("Hello World");
     
   
-  # Variables : They are containers for data values.
+  # Variables : They are containers for storing data values.
           
-        
+       Variable Rule: 
+
+          * Variable name are case sensitive. "a" and "A" are different.
+               eg: x = 10;
+                   console.log(x);
+                   console.log(X);
+          * Only letters, digits, underscore(_) and dollar($) sign are allowed. (Not even space allowed in variable name)
+          *Only a letter, underscore(_) or dollar($) shoud be 1st letter.
+          *Reserved keywoard cannot be variable names. 
+
+      Let, const & var : JS has 3 type of variables. 
+
+          *var : Variable can be re-declared & updated. A global scope. 
+
+          *let : Variable can be updated but not be re-declared. A block scope.
+
+          *const : Variable can neither be re-declared nor updated. A block scope.        
+
+               
+
