@@ -29,9 +29,22 @@
 
 // **
 
-let name = "Arun";
-let age = 23;
-let price = 100.9;
+// let name = "Arun";
+// let age = 23;
+// let price = 100.9;
 
 
-console.log(name);
+// console.log(name);
+
+// ** 
+
+{
+    let a = 10;
+    console.log(a);
+}
+{
+    let a = 5;
+    console.log(a);  
+}
+
+// Note : let and const are block scope and var is global scope. 
