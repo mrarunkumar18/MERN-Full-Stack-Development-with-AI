@@ -1,0 +1,2 @@
+javascript : JS is a programming language . we use it to give instruction to the computer .
+
