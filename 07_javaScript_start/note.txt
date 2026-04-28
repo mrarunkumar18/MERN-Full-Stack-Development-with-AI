@@ -126,12 +126,31 @@
                   // code to be executed if expression doesn't match any of the cases
                 }      
 
+            switch(choice){
+              case 1:
+                console.log("Addition");
+                break;
+              case 2:
+                console.log("Subtraction");
+                break;
+              case 3:
+                console.log("Multiplication");
+                break;
+              case 4:
+                console.log("Division");
+                break;
+              default:
+                console.log("Invalid choice");
+            }    
+
        -> Loops (iteration) : it is used to repeat a block of code as long
             as a specified condition is true
             1. for loop : it is used to repeat a block of code a specified number of times
                     for(initialization; condition; increment/decrement){
                      // code to be executed
                     }
+
+
     
             2. while loop : it is used to repeat a block of code as long as a specified condition is true
                     while(condition){
@@ -142,6 +161,18 @@
                     do{
                      // code to be executed
                     }while(condition);
+
+            4. break and continue statement : 
+                  -> break : it is used to exit the loop immediately
+                  -> continue : it is used to skip the current iteration and move to the next iteration
+
+            5. nested loop : it is a loop inside another loop
+                  eg:
+                  for(let i=1; i<=3; i++){
+                    for(let j=1; j<=i; j++){
+                      console.log(j);
+                    }
+            
               
        *** input date at runtime using prompt() method
             -> prompt() : to input data at runtime, it is a built-in function in JavaScript that displays a dialog box with an optional message prompting the user to input some text. The function returns the text entered by the user as a string. If the user clicks "Cancel" or closes the dialog box, it returns null.
@@ -150,4 +181,21 @@
                 console.log("Your age is: " + age); // Output: Your age is: [age]
 
             let name = prompt("Enter your name:");
-            console.log("Hello, " + name + "!"); // Output: Hello, [name]!       
+            console.log("Hello, " + name + "!"); // Output: Hello, [name]!   
+
+
+     -> Array : are the group of elements which is used to store multiple value in a single variables of any type.(hetrogenous).    
+        syntax:
+        let arr=[value1, value2, value3, ...]
+
+        eg:
+        let arr=[123,"arun",4.56]
+        ** array values are store in index and 0
+        arr[1]
+
+        -> to find the array length : arrayname.length
+          for array we use forEach loop to works
+            arrayname.forEach(function(value,index){
+              
+            })
+            

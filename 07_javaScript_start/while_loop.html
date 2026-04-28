@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While Loop example</title>
+</head>
+<body>
+    <h2>While Loop Example</h2>
+    <script>
+        //input a number and find its reverse and find the sum of the digit of a number
+
+        // eg: 1234, 4321, 1+2+3+4=10
+
+        let num=parseInt(prompt("Enter a number"))
+        let rev=0
+        let sum=0
+        while(num>=1){
+            x=num%10;
+            rev=(rev*10)+x; // 10*0+4=4, 10*4+3=43, 10*43+2=432
+            sum=sum+x; // 0+4=4, 4+3=7, 7+2=9
+            num=num/10; 
+        }
+        alert("reverse number is "+rev)
+        alert("sum of digits is "+sum)
+
+    </script>
+</body>
+</html>
