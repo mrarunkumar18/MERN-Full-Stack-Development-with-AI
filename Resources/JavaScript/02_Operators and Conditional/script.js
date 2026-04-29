@@ -36,28 +36,29 @@ console.log("Hello World");
 //Assignment Operator
 
 
-// let a = 5;
-// let b = 2;
+let a = 5;
+let b = 2;
 
-// a += 4; // a = a + 4
-// console.log("a = ", a); // 9
+a += 4; // a = a + 4
+console.log("a = ", a); // 9
 
-// a -= 4; // a = a - 4
-// console.log("a = ", a); // 5
+a -= 4; // a = a - 4
+console.log("a = ", a); // 5
 
-// a *= 4; // a = a * 4
-// console.log("a = ", a); // 20
+a *= 4; // a = a * 4
+console.log("a = ", a); // 20
 
-// a /= 4; // a = a / 4
-// console.log("a = ", a); // 5
+a /= 4; // a = a / 4
+console.log("a = ", a); // 5
 
-// a %= 4; // a = a % 4
-// console.log("a = ", a); // 1
+a %= 4; // a = a % 4
+console.log("a = ", a); // 1
 
-// a **= 4; // a = a ** 4
-// console.log("a = ", a); // 625
+a **= 4; // a = a ** 4
+console.log("a = ", a); // 625
 
 //Comparison Operators
+<<<<<<< HEAD
 
 // let a = 5;
 // let b = 2;
@@ -170,5 +171,7 @@ let result = age >= 18 ? "Adult" : "Not Adult";
 console.log(result);
 
 
+=======
+>>>>>>> cf1a5e8 (refactor: uncomment assignment operator examples and fix spelling of Comparison header)
 
 
