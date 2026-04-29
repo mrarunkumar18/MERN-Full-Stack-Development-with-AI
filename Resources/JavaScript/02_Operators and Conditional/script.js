@@ -36,23 +36,30 @@ console.log("Hello World");
 //Assignment Operator
 
 
+// let a = 5;
+// let b = 2;
+
+// a += 4; // a = a + 4
+// console.log("a = ", a); // 9
+
+// a -= 4; // a = a - 4
+// console.log("a = ", a); // 5
+
+// a *= 4; // a = a * 4
+// console.log("a = ", a); // 20
+
+// a /= 4; // a = a / 4
+// console.log("a = ", a); // 5
+
+// a %= 4; // a = a % 4
+// console.log("a = ", a); // 1
+
+// a **= 4; // a = a ** 4
+// console.log("a = ", a); // 625
+
+//Cmparison Operators
+
 let a = 5;
 let b = 2;
 
-a += 4; // a = a + 4
-console.log("a = ", a); // 9
-
-a -= 4; // a = a - 4
-console.log("a = ", a); // 5
-
-a *= 4; // a = a * 4
-console.log("a = ", a); // 20
-
-a /= 4; // a = a / 4
-console.log("a = ", a); // 5
-
-a %= 4; // a = a % 4
-console.log("a = ", a); // 1
-
-a **= 4; // a = a ** 4
-console.log("a = ", a); // 625
+console.log("5 != 2", 5 != 2);
