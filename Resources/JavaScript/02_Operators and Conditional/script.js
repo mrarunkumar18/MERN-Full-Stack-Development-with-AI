@@ -171,7 +171,4 @@ let result = age >= 18 ? "Adult" : "Not Adult";
 console.log(result);
 
 
-=======
->>>>>>> cf1a5e8 (refactor: uncomment assignment operator examples and fix spelling of Comparison header)
-
 
