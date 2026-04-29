@@ -2,7 +2,7 @@
 repo_type: chronological-learning-journal
 author: Arun Kumar | github: mrarunkumar18
 goal: MERN stack mastery → Cybersecurity
-status_date: 2026-04-27
+status_date: 2026-04-29
 
 ---
 
@@ -69,12 +69,17 @@ root/
     Project 2/            → placeholder for next project
   Resources/
     JavaScript/
-      Variables & Data_types/
+      01_Variables & Data_types/
         index.html        → JS integration in HTML
         first.js          → variable declarations, scope (let/const/var), primitives, objects
         PQ1.js            → practice questions part 1
         PQ2.js            → practice questions part 2
         note.txt          → theory: variables rules, data types, objects
+      02_Operators and Conditional/
+        index.html        → JS integration scaffold for operators and conditional practice
+        script.js         → examples for comments, arithmetic, unary, assignment, comparison, logical, conditional, and ternary operators
+        PQ1.js            → prompt() practice: checks whether user input is a multiple of 5
+        note.txt          → theory: comments, operators, conditionals, ternary operator
   README.md               → portfolio readme: progress table, notes, setup, future plan
   PROJECT_MEMORY.md       → this file
 ```
@@ -91,9 +96,10 @@ root/
 | 3 | CSS Layout | 03_CSS Layout Techniques/style*.html, my.css, note.txt | ✅ done |
 | 4 | Responsive Design | 04_Responsive Design with Bootstrap/BoxModel, positioning, grid.html, layout/ | ✅ done |
 | 5 | JavaScript Foundation | 05_javaScript_foundatinon/*.html, note.txt, tailwind/first.html | ✅ done |
-| 6 | JavaScript Essentials | 06_Java_Script_Essentials/first.html, first.js, notes.txt | 🔄 active |
+| 6 | JavaScript Essentials | 06_Java_Script_Essentials/first.html, first.js, notes.txt | ✅ done |
 | 7 | JavaScript Start (Control Flow) | 07_javaScript_start/*.html, note.txt | 🔄 active |
-| - | JavaScript Variables & Data Types | Resources/JavaScript/Variables & Data_types/* | ✅ done |
+| - | JavaScript Variables & Data Types | Resources/JavaScript/01_Variables & Data_types/* | ✅ done |
+| - | JavaScript Operators & Conditional | Resources/JavaScript/02_Operators and Conditional/* | 🔄 active |
 | 8 | Backend Node/Express | not started | ⏳ pending |
 | 9 | MongoDB/Mongoose | not started | ⏳ pending |
 | 10 | Projects + AI | Projects/Portfolio_Website, Project 2 | 🔄 active |
@@ -217,14 +223,17 @@ root/
 - non-primitives: Objects (key-value pairs, accessing properties via dot and bracket notation)
 - operators: arithmetic, assignment, comparison, logical
 - expressions: simple calculations and output checks in first.js
-- practice files: Resources/JavaScript/Variables & Data_types/first.js, PQ1.js, PQ2.js
+- practice files: Resources/JavaScript/01_Variables & Data_types/first.js, PQ1.js, PQ2.js
 - next step is DOM selection and event handling
 
 ### JavaScript Start (Control Flow)
+- comments: single-line, multi-line, and documentation-style comments
+- operators: arithmetic, unary increment/decrement, assignment, comparison, logical, and ternary
 - conditionals: if, if...else, else if, nested if
-- operator practice: arithmetic, assignment, comparison, logical, ternary
 - runtime input with prompt()
 - practice files: Variables.html, operators.html, if_else_even_odd.html, nested.html, prompt-add.html
+- current resource folder: Resources/JavaScript/02_Operators and Conditional/
+- current practice: PQ1.js checks whether a prompt-entered number is a multiple of 5
 
 ---
 
@@ -236,9 +245,11 @@ root/
 4. 04_Responsive Design with Bootstrap/layout/index.html → full semantic page: header + nav + aside + article + footer
 5. 04_Responsive Design with Bootstrap/grid.html → CSS Grid 2D demo with grid-template-areas
 6. 03_CSS Layout Techniques/pseudo-elements.html → ::before and ::after practice
-7. Resources/JavaScript/Variables & Data_types/first.js → JavaScript syntax, scope, and object practice
-8. 07_javaScript_start/operators.html → operators and conditional logic practice
-9. Projects/Portfolio_Website/index.html → personal portfolio with Home/About/Skills/Projects/Contact sections
+7. Resources/JavaScript/01_Variables & Data_types/first.js → JavaScript syntax, scope, and object practice
+8. Resources/JavaScript/02_Operators and Conditional/script.js → comments, operators, conditionals, and ternary practice
+9. Resources/JavaScript/02_Operators and Conditional/PQ1.js → prompt-based multiple-of-5 practice question
+10. 07_javaScript_start/operators.html → operators and conditional logic practice
+11. Projects/Portfolio_Website/index.html → personal portfolio with Home/About/Skills/Projects/Contact sections
 
 ---
 
@@ -246,7 +257,7 @@ root/
 
 - This is a chronological learning journal, not a production app.
 - The folder names reflect the original course structure, including a few spelling quirks in the source material.
-- The clearest progress boundary right now is between Bootstrap-heavy JavaScript Foundation work and actual JavaScript syntax practice.
+- The clearest progress boundary right now is between JavaScript variables/data types and operators/conditional logic practice.
 - The modal placement issue in Bootstrap was a useful bug fix: modal components need to live as direct children of <body>.
 - Tailwind exists as a small side experiment inside the JavaScript Foundation folder, but it is not the main learning track.
 - A dedicated Projects area is now active with a portfolio website and a placeholder second project.
@@ -273,6 +284,9 @@ learn concept → write in note.txt (own words)
 - [x] JavaScript Foundation completed with Bootstrap 5 and layout practice ✅
 - [x] JavaScript Start module added: variables, operators, if/else, nested conditions, prompt input ✅
 - [x] JavaScript Essentials: variables, data types, scoping rules, and objects ✅
+- [x] Resources reorganized into numbered JavaScript folders for Variables/Data Types and Operators/Conditional practice ✅
+- [x] Operators and Conditional notes added: comments, arithmetic, assignment, comparison, logical, ternary, and if/else forms ✅
+- [x] PQ1 practice added for prompt-based multiple-of-5 checking ✅
 - [ ] JavaScript Essentials: functions and arrays
 - [ ] DOM manipulation: document.querySelector, getElementById, addEventListener
 - [ ] ES6: let/const, arrow functions, template literals, destructuring, spread/rest

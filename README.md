@@ -1,7 +1,7 @@
 # 🚀 MERN Full Stack Development with AI
 > *A structured journey from web fundamentals to JavaScript essentials and control flow, then toward MERN stack development and AI-powered applications.*
 
-This repository documents my learning path through **HTML, CSS, responsive design, JavaScript fundamentals, control-flow practice, and practical AI integrations** as I build toward full-stack development.
+This repository documents my learning path through **HTML, CSS, responsive design, JavaScript fundamentals, operators, conditional logic, control-flow practice, and practical AI integrations** as I build toward full-stack development.
 
 ---
 
@@ -91,8 +91,8 @@ I am breaking down the vast ecosystem of web development into structured, manage
 | 🟠 **Module 3: CSS Layout Techniques** | Typography, Pseudo-classes/elements, Styling Practice | ✅ Completed |
 | 🟣 **Module 4: Responsive Design (Bootstrap)** | Box Model, Positioning, CSS Grid, Semantic Layouts, Media Queries, Bootstrap 5 (Navbar, Cards, Carousel, Modal, Forms, Grid System) | ✅ Completed |
 | 🔵 **Module 5: JavaScript Foundation** | Bootstrap 5 components, responsive layouts, JavaScript kickoff | ✅ Completed |
-| 🟣 **Module 6: JavaScript Essentials** | Variables, scope (let/const/var), data types (primitives, objects), operators | 🔄 In Progress |
-| 🟤 **Module 7: JavaScript Start (Control Flow)** | Variables recap, operators, if/else, nested conditions, prompt input | 🔄 In Progress |
+| 🟣 **Module 6: JavaScript Essentials** | Variables, scope (let/const/var), data types (primitives, objects), operators | ✅ Completed |
+| 🟤 **Module 7: JavaScript Start (Control Flow)** | Operators, comments, assignment/comparison/logical operators, if/else, nested conditions, ternary operator, prompt input | 🔄 In Progress |
 | 🟠 **Module 8: Backend** | Node.js, Express.js, APIs | ⏳ Pending |
 | ⚫ **Module 9: Database** | MongoDB, Mongoose | ⏳ Pending |
 | 🔴 **Module 10: Projects + AI** | Portfolio Website active, Project 2 placeholder, Full Stack + AI roadmap | 🔄 In Progress |
@@ -127,9 +127,11 @@ I am breaking down the vast ecosystem of web development into structured, manage
 - 📌 **Practical Exercises:** Solved practice questions in `PQ1.js` and `PQ2.js`, and practiced syntax in `first.js` via an integrated `index.html`.
 
 **Recent Learnings - JavaScript Start (Control Flow):**
+- 📌 **Comments:** Practiced single-line (`//`), multi-line (`/* ... */`), and documentation-style comments.
 - 📌 **Conditionals:** Practiced `if`, `if...else`, `else if`, and nested decision logic.
-- 📌 **Operators:** Revised arithmetic, assignment, comparison, logical, and ternary operators with hands-on examples.
+- 📌 **Operators:** Revised arithmetic (`+`, `-`, `*`, `/`, `%`, `**`), assignment (`=`, `+=`, `-=`, `*=`, `/=`, `%=`, `**=`), comparison (`==`, `===`, `!=`, `!==`, `>`, `<`, `>=`, `<=`), logical (`&&`, `||`, `!`), and ternary operators with hands-on examples.
 - 📌 **Runtime Input:** Used `prompt()` to capture user input and build simple interactive logic.
+- 📌 **Practice Question:** Built `PQ1.js` in `Resources/JavaScript/02_Operators and Conditional/` to check whether a user-entered number is a multiple of 5.
 
 **Project Progress - Portfolio Website:**
 - 📌 Built a personal portfolio page with sections for Home, About, Skills, Projects, and Contact.
@@ -161,7 +163,7 @@ code .
 
 ## 🎯 Future Plan
 
-- **Short-term:** Complete JavaScript essentials (functions, arrays, objects), then DOM manipulation and ES6 features.
+- **Short-term:** Complete JavaScript control-flow practice, then move into functions, arrays, DOM manipulation, and ES6 features.
 - **Project Focus:** Improve Portfolio Website UI/UX and start building `Project 2`.
 - **Mid-term:** Build and deploy 3 fully functional full-stack projects using React + Node.js + custom REST APIs.
 - **Long-term:** Master basic web security principles (Cybersecurity), keep improving AI-assisted workflows, and apply for remote full-stack internships.
