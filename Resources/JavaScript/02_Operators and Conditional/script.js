@@ -57,9 +57,118 @@ console.log("Hello World");
 // a **= 4; // a = a ** 4
 // console.log("a = ", a); // 625
 
-//Cmparison Operators
+//Comparison Operators
 
-let a = 5;
-let b = 2;
+// let a = 5;
+// let b = 2;
 
-console.log("5 != 2", 5 != 2);
+// console.log("5 != 2", 5 != 2);
+// console.log("a==b", a==b);
+// console.log("a === b", a === b);
+// console.log("5 > 2", a > b);
+
+
+//Logical Operator
+
+// let a = 6;
+// let b = 3;
+
+// let cond1 = a > b; // true
+// let cond2 = a === b; // false 
+
+// console.log("cond1 && cond2 ", cond1 && cond2); // false
+// console.log("cond1 || cond2 ", cond1 || cond2); // true
+// console.log("! cond1 ", !cond1); // false
+
+//Conditional 
+
+// let age = 18;
+
+// if (age >= 18) {
+//     console.log("You are an adult");
+// }
+
+
+// let age = 25;
+
+// if(age > 18) {
+//     console.log("Can vote");
+// } else {
+//     console.log("Can't vote");
+// }
+
+
+
+// let mode = "dark";
+// let color;
+
+// if (mode === "dark") {
+//     color = "black";
+// }
+
+// if(mode === "light"){
+//     color = "white";
+// }
+
+// console.log(color);
+
+
+
+// let mode = "light";
+// let color;
+
+// if (mode === "dark") {
+//     color = "black";
+// } else {
+//     color = "white";
+// }
+
+// console.log(color);
+
+// let age = 25;
+
+// if (age >= 18){
+//     console.log("Adult: You can vote");
+// } else {
+//     console.log("Not Adult: You can't vote");
+// }
+
+
+//odd or even 
+
+// let num = 101;
+
+// if (num % 2 === 0) {
+//     console.log(num, " this is even number");
+// } else {
+//     console.log(num, " this is odd number");
+// }
+
+
+// let mode = "pink";
+// let color;
+
+// if (mode === "dark") {
+//     color = "black";
+// } else if (mode === "blue") {
+//     color = "blue";
+// } else if (mode === "pink") {
+//     color = "pink";
+// } else {
+//     color = "white";
+// }
+
+// console.log(color);
+
+
+//Ternary Operator 
+
+let age =25;
+
+let result = age >= 18 ? "Adult" : "Not Adult";
+
+console.log(result);
+
+
+
+

@@ -49,3 +49,55 @@
         >= : Greater than or equal to
         <= : Less than or equal to
 
+    Logical Operator --> Used to combine two or more conditions.
+
+        && : Logical AND (Returns true if both conditions are true)
+        || : Logical OR (Returns true if at least one of the conditions is true)
+        ! : Logical NOT (Returns the opposite of the condition)
+
+    Conditional --> used to make decisions in the code. 
+
+    1. If Statement 
+        if (condition) {
+            // code to be executed if the condition is true
+        }
+
+    2. If-Else Statement 
+        if (condition) {
+            // code to be executed if the condition is true
+        } else {
+            // code to be executed if the condition is false
+        }
+
+    3. If-Else-If Statement 
+        if (condition1) {
+            // code to be executed if condition1 is true
+        } else if (condition2) {
+            // code to be executed if condition2 is true
+        } else {
+            // code to be executed if both conditions are false
+        }
+
+    4. Nested If Statement 
+        if (condition1) {
+            if (condition2) {
+                // code to be executed if both conditions are true
+            } else {
+                // code to be executed if condition1 is true and condition2 is false
+            }
+        } else {
+            // code to be executed if condition1 is false
+        }
+
+
+        Ternary Operator --> Used to make decisions in the code. (Ex : condition ? value1 : value2) 
+
+
+        let age = 18;
+        let result = age >= 18 ? "Adult" : "Not Adult";
+        console.log(result);
+
+
+        MDN Docs -->https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+        
