@@ -61,3 +61,13 @@
 
 //for-in Loop
 
+let student = {
+    name : "Arun",
+    age : 22,
+    cgpa : 8.6,
+    isPass : true
+};
+
+for(let i in student) {
+    console.log(i, student[i]);
+}
