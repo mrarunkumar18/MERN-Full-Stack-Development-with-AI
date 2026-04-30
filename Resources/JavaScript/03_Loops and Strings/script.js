@@ -27,11 +27,37 @@
 //While Loop 
 
 
-let i = 1;
-while (i <=10) {
-    console.log("i=", i);
-    i++;
-}
+// let i = 1;
+// while (i <=10) {
+//     console.log("i=", i);
+//     i++;
+// }
 
-console.log("Loop has ended");
+// console.log("Loop has ended");
+
+
+//Do While Loop 
+
+// let i = 1;
+//     do {
+//         console.log("i=", i);
+//         i++;
+//     } while (i <=10);
+    
+//     console.log("Loop has ended");
+    
+
+//For-of Loop 
+
+// let str = "JavaScript";
+
+// let size = 0;
+// for (let i of str) {
+//     console.log("i= ", i);     //Print all characters of the string
+//     size++;
+// }
+// console.log("Size =", size);
+
+
+//for-in Loop
 

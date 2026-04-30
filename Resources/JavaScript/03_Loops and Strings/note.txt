@@ -6,6 +6,8 @@ Loops and Strings
              1. For Loop
              2. While Loop 
              3. Do While Loop
+             4. For-of Loop
+             5. For-in Loop 
 
         1. For Loop: 
 
@@ -70,4 +72,34 @@ Loops and Strings
                             i++; 
                         } while (i < 10); 
             
-        
+        4. For-of Loop: 
+                Syntax: 
+                        for (let variable of iterable) { 
+                            // code to be executed 
+                        } 
+                
+                Example: 
+                        let str = "Hello"; 
+                        for (let char of str) { 
+                            console.log(char); 
+                        } 
+            
+        5. For-in Loop: 
+                Syntax: 
+                        for (let key in object) { 
+                            // code to be executed 
+                        } 
+                
+                Example: 
+                        let obj = { name: "John", age: 30, city: "New York" }; 
+                        for (let key in obj) { 
+                            console.log(key + ": " + obj[key]); 
+                        } 
+
+        6. Nested Loop: 
+                Syntax: 
+                        for (let i = 0; i < 5; i++) { // Outer Loop 
+                            for (let j = 0; j < 5; j++) { // Inner Loop 
+                                // code to be executed 
+                            } 
+                        }
