@@ -2,7 +2,7 @@
 repo_type: chronological-learning-journal
 author: Arun Kumar | github: mrarunkumar18
 goal: MERN stack mastery → Cybersecurity
-status_date: 2026-04-29
+status_date: 2026-04-30
 
 ---
 
@@ -79,7 +79,12 @@ root/
         index.html        → JS integration scaffold for operators and conditional practice
         script.js         → examples for comments, arithmetic, unary, assignment, comparison, logical, conditional, and ternary operators
         PQ1.js            → prompt() practice: checks whether user input is a multiple of 5
+        PQ2.js            → grade calculator: maps score 0–100 to grades A–F using else if chains
         note.txt          → theory: comments, operators, conditionals, ternary operator
+      03_Loops and Strings/
+        index.html        → JS integration scaffold for loops and strings practice
+        script.js         → examples for for, while, do-while, for-of (string chars), for-in (object keys), nested loops
+        note.txt          → theory: all 5 loop types with syntax, examples, infinite loop trap, block scope
   README.md               → portfolio readme: progress table, notes, setup, future plan
   PROJECT_MEMORY.md       → this file
 ```
@@ -99,7 +104,8 @@ root/
 | 6 | JavaScript Essentials | 06_Java_Script_Essentials/first.html, first.js, notes.txt | ✅ done |
 | 7 | JavaScript Start (Control Flow) | 07_javaScript_start/*.html, note.txt | 🔄 active |
 | - | JavaScript Variables & Data Types | Resources/JavaScript/01_Variables & Data_types/* | ✅ done |
-| - | JavaScript Operators & Conditional | Resources/JavaScript/02_Operators and Conditional/* | 🔄 active |
+| - | JavaScript Operators & Conditional | Resources/JavaScript/02_Operators and Conditional/* | ✅ done |
+| - | JavaScript Loops & Strings | Resources/JavaScript/03_Loops and Strings/* | 🔄 active |
 | 8 | Backend Node/Express | not started | ⏳ pending |
 | 9 | MongoDB/Mongoose | not started | ⏳ pending |
 | 10 | Projects + AI | Projects/Portfolio_Website, Project 2 | 🔄 active |
@@ -226,14 +232,31 @@ root/
 - practice files: Resources/JavaScript/01_Variables & Data_types/first.js, PQ1.js, PQ2.js
 - next step is DOM selection and event handling
 
-### JavaScript Start (Control Flow)
+### JavaScript Start (Control Flow) ✅
 - comments: single-line, multi-line, and documentation-style comments
 - operators: arithmetic, unary increment/decrement, assignment, comparison, logical, and ternary
 - conditionals: if, if...else, else if, nested if
 - runtime input with prompt()
+- PQ1.js: prompt-entered number → multiple of 5 check
+- PQ2.js: prompt-entered score → grade A–F using else if chain
 - practice files: Variables.html, operators.html, if_else_even_odd.html, nested.html, prompt-add.html
-- current resource folder: Resources/JavaScript/02_Operators and Conditional/
-- current practice: PQ1.js checks whether a prompt-entered number is a multiple of 5
+- resource folder: Resources/JavaScript/02_Operators and Conditional/
+
+### JavaScript Loops & Strings 🔄
+- **for loop:** `for (init; condition; increment)` — iteration with counter
+  - printed 1–100 using loop
+  - calculated cumulative sum of 1–5 step by step
+- **while loop:** `while (condition)` — condition checked before each iteration; manual counter required
+- **do-while loop:** `do { } while (condition)` — always executes at least once regardless of condition
+- **for-of loop:** iterates over values of any iterable (strings, arrays)
+  - used to print each character of "JavaScript" one by one
+  - counted string length by incrementing a counter inside the loop
+- **for-in loop:** iterates over keys of an object
+  - accessed object values using `obj[key]` pattern
+- **nested loops:** inner loop runs fully for each iteration of the outer loop
+- **infinite loop trap:** `i--` instead of `i++` with `i <= 5` → condition never false → browser freezes
+- **block scope in loops:** `let` declared inside `{ }` block is inaccessible outside → ReferenceError
+- resource folder: Resources/JavaScript/03_Loops and Strings/
 
 ---
 
@@ -248,8 +271,10 @@ root/
 7. Resources/JavaScript/01_Variables & Data_types/first.js → JavaScript syntax, scope, and object practice
 8. Resources/JavaScript/02_Operators and Conditional/script.js → comments, operators, conditionals, and ternary practice
 9. Resources/JavaScript/02_Operators and Conditional/PQ1.js → prompt-based multiple-of-5 practice question
-10. 07_javaScript_start/operators.html → operators and conditional logic practice
-11. Projects/Portfolio_Website/index.html → personal portfolio with Home/About/Skills/Projects/Contact sections
+10. Resources/JavaScript/02_Operators and Conditional/PQ2.js → grade calculator: score 0–100 mapped to A–F
+11. Resources/JavaScript/03_Loops and Strings/script.js → for, while, do-while, for-of, for-in loop examples
+12. 07_javaScript_start/operators.html → operators and conditional logic practice
+13. Projects/Portfolio_Website/index.html → personal portfolio with Home/About/Skills/Projects/Contact sections
 
 ---
 
@@ -287,6 +312,10 @@ learn concept → write in note.txt (own words)
 - [x] Resources reorganized into numbered JavaScript folders for Variables/Data Types and Operators/Conditional practice ✅
 - [x] Operators and Conditional notes added: comments, arithmetic, assignment, comparison, logical, ternary, and if/else forms ✅
 - [x] PQ1 practice added for prompt-based multiple-of-5 checking ✅
+- [x] PQ2 practice added: full grade calculator (A–F) using prompt and else if chain ✅
+- [x] Loops & Strings module started: for, while, do-while, for-of, for-in loop types covered ✅
+- [x] Infinite loop trap and block scope inside loops understood ✅
+- [ ] Loops & Strings: complete for-in loop examples and string method practice
 - [ ] JavaScript Essentials: functions and arrays
 - [ ] DOM manipulation: document.querySelector, getElementById, addEventListener
 - [ ] ES6: let/const, arrow functions, template literals, destructuring, spread/rest

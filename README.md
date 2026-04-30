@@ -1,7 +1,7 @@
 # 🚀 MERN Full Stack Development with AI
-> *A structured journey from web fundamentals to JavaScript essentials and control flow, then toward MERN stack development and AI-powered applications.*
+> *A structured journey from web fundamentals to JavaScript essentials, control flow, loops, strings, and toward MERN stack development and AI-powered applications.*
 
-This repository documents my learning path through **HTML, CSS, responsive design, JavaScript fundamentals, operators, conditional logic, control-flow practice, and practical AI integrations** as I build toward full-stack development.
+This repository documents my learning path through **HTML, CSS, responsive design, JavaScript fundamentals, operators, conditional logic, loops, strings, and practical AI integrations** as I build toward full-stack development.
 
 ---
 
@@ -92,10 +92,11 @@ I am breaking down the vast ecosystem of web development into structured, manage
 | 🟣 **Module 4: Responsive Design (Bootstrap)** | Box Model, Positioning, CSS Grid, Semantic Layouts, Media Queries, Bootstrap 5 (Navbar, Cards, Carousel, Modal, Forms, Grid System) | ✅ Completed |
 | 🔵 **Module 5: JavaScript Foundation** | Bootstrap 5 components, responsive layouts, JavaScript kickoff | ✅ Completed |
 | 🟣 **Module 6: JavaScript Essentials** | Variables, scope (let/const/var), data types (primitives, objects), operators | ✅ Completed |
-| 🟤 **Module 7: JavaScript Start (Control Flow)** | Operators, comments, assignment/comparison/logical operators, if/else, nested conditions, ternary operator, prompt input | 🔄 In Progress |
-| 🟠 **Module 8: Backend** | Node.js, Express.js, APIs | ⏳ Pending |
-| ⚫ **Module 9: Database** | MongoDB, Mongoose | ⏳ Pending |
-| 🔴 **Module 10: Projects + AI** | Portfolio Website active, Project 2 placeholder, Full Stack + AI roadmap | 🔄 In Progress |
+| 🟤 **Module 7: JavaScript Start (Control Flow)** | Operators, comments, assignment/comparison/logical operators, if/else, nested conditions, ternary operator, prompt input, PQ1 & PQ2 grade calculator | ✅ Completed |
+| 🟤 **Module 8: JavaScript Loops & Strings** | for loop, while loop, do-while loop, for-of loop (string iteration), for-in loop (object keys), nested loops, infinite loop awareness, block scope inside loops | 🔄 In Progress |
+| 🟠 **Module 9: Backend** | Node.js, Express.js, APIs | ⏳ Pending |
+| ⚫ **Module 10: Database** | MongoDB, Mongoose | ⏳ Pending |
+| 🔴 **Module 11: Projects + AI** | Portfolio Website active, Project 2 placeholder, Full Stack + AI roadmap | 🔄 In Progress |
 
 ---
 
@@ -126,12 +127,23 @@ I am breaking down the vast ecosystem of web development into structured, manage
 - 📌 **Objects:** Created and manipulated Objects as key-value pairs. Learned to access and modify properties using dot notation (`student.age`) and bracket notation (`student["age"]`).
 - 📌 **Practical Exercises:** Solved practice questions in `PQ1.js` and `PQ2.js`, and practiced syntax in `first.js` via an integrated `index.html`.
 
-**Recent Learnings - JavaScript Start (Control Flow):**
+**Recent Learnings - JavaScript Start (Control Flow):** ✅
 - 📌 **Comments:** Practiced single-line (`//`), multi-line (`/* ... */`), and documentation-style comments.
 - 📌 **Conditionals:** Practiced `if`, `if...else`, `else if`, and nested decision logic.
 - 📌 **Operators:** Revised arithmetic (`+`, `-`, `*`, `/`, `%`, `**`), assignment (`=`, `+=`, `-=`, `*=`, `/=`, `%=`, `**=`), comparison (`==`, `===`, `!=`, `!==`, `>`, `<`, `>=`, `<=`), logical (`&&`, `||`, `!`), and ternary operators with hands-on examples.
 - 📌 **Runtime Input:** Used `prompt()` to capture user input and build simple interactive logic.
-- 📌 **Practice Question:** Built `PQ1.js` in `Resources/JavaScript/02_Operators and Conditional/` to check whether a user-entered number is a multiple of 5.
+- 📌 **PQ1:** Checks if a prompt-entered number is a multiple of 5.
+- 📌 **PQ2:** Full grade calculator — maps a prompt-entered score to grades A–F using `else if` chains.
+
+**Recent Learnings - JavaScript Loops & Strings:** 🔄
+- 📌 **For Loop:** `for (init; condition; increment)` — used to print 1–100 and calculate sum of 1–5 step by step.
+- 📌 **While Loop:** `while (condition)` — runs as long as condition is true; counter must be managed manually.
+- 📌 **Do-While Loop:** `do { } while (condition)` — always executes **at least once** before checking the condition.
+- 📌 **For-of Loop:** Iterates over **iterable values** (e.g., characters of a string). Used `for (let char of str)` to print each character and count string length manually.
+- 📌 **For-in Loop:** Iterates over **keys** of an object. Used `for (let key in obj)` to access property names and values.
+- 📌 **Nested Loops:** Outer loop + inner loop — inner resets and completes fully for each outer iteration.
+- 📌 **Infinite Loop Trap:** Identified that a wrong increment direction (e.g., `i--` when condition is `i <= 5`) causes an infinite loop — browser tab freezes.
+- 📌 **Block Scope in Loops:** Variables declared with `let` inside a loop block are not accessible outside it — `ReferenceError` if accessed after the loop ends.
 
 **Project Progress - Portfolio Website:**
 - 📌 Built a personal portfolio page with sections for Home, About, Skills, Projects, and Contact.
@@ -163,7 +175,7 @@ code .
 
 ## 🎯 Future Plan
 
-- **Short-term:** Complete JavaScript control-flow practice, then move into functions, arrays, DOM manipulation, and ES6 features.
+- **Short-term:** Complete Loops & Strings module (for, while, do-while, for-of, for-in, nested loops), then move into JavaScript functions, arrays, DOM manipulation, and ES6 features.
 - **Project Focus:** Improve Portfolio Website UI/UX and start building `Project 2`.
 - **Mid-term:** Build and deploy 3 fully functional full-stack projects using React + Node.js + custom REST APIs.
 - **Long-term:** Master basic web security principles (Cybersecurity), keep improving AI-assisted workflows, and apply for remote full-stack internships.
