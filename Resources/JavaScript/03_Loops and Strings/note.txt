@@ -1,0 +1,73 @@
+Loops and Strings  
+
+ #Loops : Loops are used to execute a block of code multiple times. 
+           
+ #Types of Loops: 
+             1. For Loop
+             2. While Loop 
+             3. Do While Loop
+
+        1. For Loop: 
+
+            Syntax: 
+                    for (initialization; condition; increment/decrement) { 
+                        // code to be executed 
+                    } 
+
+
+            Example: 
+                   for (let i = 0; i < 10; i++) { 
+                        console.log(i); 
+                   } 
+            
+                * Infinite Loop: 
+                        for (let i=1; i<=5; i--) {    // Error: Infinite Loop: Condition will always be true 
+                            console.log("Hello"); 
+                        }
+                
+                * Block scope: 
+                        for (let i = 1; i <= 5; i++) { 
+                            sum = sum + i; 
+                        }
+                        console.log(sum); // Error: sum is not defined 
+
+        2. while Loop : 
+                Syntax: 
+                        while (condition) { 
+                            // code to be executed 
+                        }
+                
+                Example: 
+                        let i = 0; 
+                        while (i < 10) { 
+                            console.log(i); 
+                            i++; 
+                        }
+                
+                * Infinite Loop: 
+                        while (true) { 
+                            console.log("Hello"); 
+                        }
+                
+                * Block scope: 
+                        while (i < 10) { 
+                            let sum = 0; 
+                            sum = sum + i; 
+                        }
+                        console.log(sum); // Error: sum is not defined 
+            
+
+        3. Do While Loop: 
+                Syntax: 
+                        do {
+                            // code to be executed
+                        } while (condition); 
+                
+                Example: 
+                        let i = 0; 
+                        do { 
+                            console.log(i); 
+                            i++; 
+                        } while (i < 10); 
+            
+        
