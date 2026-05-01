@@ -68,6 +68,22 @@ let student = {
     isPass : true
 };
 
-for(let i in student) {
-    console.log(i, student[i]);
+for(let key in student) {
+    console.log("key=", key, "value:", student[key]);
 }
+
+
+
+// PQ2
+
+
+
+let gameNumber = 25;
+
+let userNum = prompt("Guess the game number: ");
+
+while(userNum !== gameNumber) {
+       userNum = prompt("You entered the wrong number, Re-enter Please!!");
+}
+
+console.log("Congratulations, You entered the right number");
