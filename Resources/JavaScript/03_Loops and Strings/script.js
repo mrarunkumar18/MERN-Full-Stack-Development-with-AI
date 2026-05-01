@@ -159,3 +159,7 @@ console.log(str.slice(2, 8));  //  elloAr
 
 console.log(str.concat(str1)); //   HelloArun Singh    Golu 
 
+console.log(str.replace("Hello", "Welcome")); //    WelcomeArun Singh   
+
+
+
