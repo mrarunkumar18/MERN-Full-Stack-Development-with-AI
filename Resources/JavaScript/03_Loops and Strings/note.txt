@@ -103,3 +103,30 @@ Loops and Strings
                                 // code to be executed 
                             } 
                         }
+
+ #Strings: Strings are sequences of characters that are used to represent text. 
+
+        Example: 
+               let str = "Hello"; 
+               console.log(str); 
+
+        #String Properties: 
+               let str = "Hello"; 
+               console.log(str.length); // Length of the string 
+
+       *Templates Literals: A way to create strings with embedded expressions.
+               `this is a template literal ${}`  
+
+       *String Interpolation: A way to create strings with embedded expressions.
+               `this is a template literal ${2+2}`
+
+       *String Methods:
+               let str = "Hello";
+               console.log(str.toUpperCase()); // Convert string to uppercase
+               console.log(str.toLowerCase()); // Convert string to lowercase
+               console.log(str.trim()); // Remove whitespace from string
+               console.log(str.slice(1, 3)); // Extract a section of string
+               console.log(str.substring(1, 3)); // Extract a section of string
+               console.log(str.replace("Hello", "World")); // Replace a string
+               console.log(str.split("")); // Split a string into an array
+
