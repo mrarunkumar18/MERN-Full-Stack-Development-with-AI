@@ -142,24 +142,40 @@
 // String Methods 
 
 
-let str = "  HelloArun Singh   ";
-let str1 = "Golu";
+// let str = "  HelloArun Singh   ";
+// let str1 = "Golu";
 
-console.log(str.toUpperCase());  //   HELLOARUN SINGH   
+// console.log(str.toUpperCase());  //   HELLOARUN SINGH   
 
-console.log(str.toLowerCase());  //   helloarun singh   
+// console.log(str.toLowerCase());  //   helloarun singh   
 
-console.log(str.trim());  // HelloArun Singh
+// console.log(str.trim());  // HelloArun Singh
 
-console.log(str.trimEnd());  //   HelloArun Singh
+// console.log(str.trimEnd());  //   HelloArun Singh
 
-console.log(str.trimStart());  // HelloArun Singh   
+// console.log(str.trimStart());  // HelloArun Singh   
 
-console.log(str.slice(2, 8));  //  elloAr 
+// console.log(str.slice(2, 8));  //  elloAr 
 
-console.log(str.concat(str1)); //   HelloArun Singh    Golu 
+// console.log(str.concat(str1)); //   HelloArun Singh    Golu 
 
-console.log(str.replace("Hello", "Welcome")); //    WelcomeArun Singh   
+// console.log(str.replace("Hello", "Welcome")); //    WelcomeArun Singh   
 
 
+
+//
+
+
+
+//Qs1. Prompt the user to enter their full name. Generate a username for them based on the input. Start username with @, Followed by their full name and ending with the fullname lenght. 
+// Example: Full Name = Arun Singh, Username = @ArunSingh10
+
+
+let fullName = prompt("Enter your full name without spaces: ");
+
+fullName = fullName.replace(/\s+/g, ""); // removes all spaces
+
+let username = "@" + fullName + fullName.length;
+
+console.log(username.toLowerCase());
 
