@@ -171,11 +171,11 @@
 // Example: Full Name = Arun Singh, Username = @ArunSingh10
 
 
-let fullName = prompt("Enter your full name without spaces: ");
+// let fullName = prompt("Enter your full name without spaces: ");
 
-fullName = fullName.replace(/\s+/g, ""); // removes all spaces
+// fullName = fullName.replace(/\s+/g, ""); // removes all spaces
 
-let username = "@" + fullName + fullName.length;
+// let username = "@" + fullName + fullName.length;
 
-console.log(username.toLowerCase());
+// console.log(username.toLowerCase());
 
