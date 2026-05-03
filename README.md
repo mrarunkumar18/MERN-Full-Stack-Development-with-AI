@@ -147,7 +147,7 @@ I am breaking down the vast ecosystem of web development into structured, manage
 - 📌 **Infinite Loop Trap:** Identified that a wrong increment direction (e.g., `i--` when condition is `i <= 5`) causes an infinite loop — browser tab freezes.
 - 📌 **Block Scope in Loops:** Variables declared with `let` inside a loop block are not accessible outside it.
 
-**Recent Learnings - JavaScript Arrays:** 🔄
+**Recent Learnings - JavaScript Arrays:** ✅
 - 📌 **Array Definition:** Storing multiple values in a single variable; arrays are objects.
 - 📌 **Indexing:** Accessing elements via `marks[0]`, `marks[1]`, etc.
 - 📌 **Looping:** Iterating through arrays using both traditional `for` loops and the modern `for-of` loop.

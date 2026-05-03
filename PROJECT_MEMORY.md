@@ -102,7 +102,7 @@ root/
 | 4 | Responsive Design | 04_Responsive Design with Bootstrap/BoxModel, positioning, grid.html, layout/ | ✅ done |
 | 5 | JavaScript Foundation | 05_javaScript_foundatinon/*.html, note.txt, tailwind/first.html | ✅ done |
 | 6 | JavaScript Essentials | 06_Java_Script_Essentials/first.html, first.js, notes.txt | ✅ done |
-| 7 | JavaScript Start (Control Flow) | 07_javaScript_start/*.html, note.txt | 🔄 active |
+| 7 | JavaScript Start (Control Flow) | 07_javaScript_start/*.html, note.txt | ✅ done |
 | - | JavaScript Variables & Data Types | Resources/JavaScript/01_Variables & Data_types/* | ✅ done |
 | - | JavaScript Operators & Conditional | Resources/JavaScript/02_Operators and Conditional/* | ✅ done |
 | - | JavaScript Loops & Strings | Resources/JavaScript/03_Loops and Strings/* | ✅ done |
