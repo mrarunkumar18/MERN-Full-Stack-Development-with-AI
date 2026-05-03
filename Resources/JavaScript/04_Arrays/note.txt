@@ -1,0 +1,10 @@
+Arrays : Collection of Data Items.
+
+Syntax : 
+        let arr = [e1, e2, e3, e4, e5];
+
+Note : 
+        Arrays are indexed starting from 0.
+        
+
+        
