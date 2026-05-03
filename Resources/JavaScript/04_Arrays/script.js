@@ -35,9 +35,19 @@
 
 
 
-let heros = ["shaktiman","spiderman","batman","heman"]; 
+// let heros = ["shaktiman","spiderman","batman","heman"]; 
 
-console.log(heros);
-console.log(heros);
-console.log(heros.typeof);
+// console.log(heros);
+// console.log(heros);
+// console.log(heros.length);
 
+
+//
+
+
+
+let heros = ["shaktiman", "Spiderman", "Thor", "Ironman", "Batman"];
+
+for(let idx = 0; idx < heros.length; idx++){
+    console.log(heros[idx], "\n");
+}
