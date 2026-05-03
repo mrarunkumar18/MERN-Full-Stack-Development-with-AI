@@ -93,8 +93,10 @@ I am breaking down the vast ecosystem of web development into structured, manage
 | 🔵 **Module 5: JavaScript Foundation** | Bootstrap 5 components, responsive layouts, JavaScript kickoff | ✅ Completed |
 | 🟣 **Module 6: JavaScript Essentials** | Variables, scope (let/const/var), data types (primitives, objects), operators | ✅ Completed |
 | 🟤 **Module 7: JavaScript Start (Control Flow)** | Operators, comments, assignment/comparison/logical operators, if/else, nested conditions, ternary operator, prompt input, PQ1 & PQ2 grade calculator | ✅ Completed |
-| 🟤 **Module 8: JavaScript Loops & Strings** | for loop, while loop, do-while loop, for-of loop (string iteration), for-in loop (object keys), nested loops, infinite loop awareness, block scope inside loops | 🔄 In Progress |
-| 🟠 **Module 9: Backend** | Node.js, Express.js, APIs | ⏳ Pending |
+| 🟤 **Module 8: JavaScript Loops & Strings** | for loop, while loop, do-while loop, for-of loop (string iteration), for-in loop (object keys), nested loops, infinite loop awareness, block scope inside loops | ✅ Completed |
+| 🟡 **Module 9: JavaScript Arrays** | Array indexing, length, looping (for, for-of), average calculation, modifying elements, array methods (push, pop, splice, etc.) | ✅ Completed |
+| 🔵 **Module 10: JavaScript Functions** | Function definition, parameters, return values, arrow functions, higher-order function basics | 🔄 In Progress |
+| 🟠 **Module 11: Backend** | Node.js, Express.js, APIs | ⏳ Pending |
 | ⚫ **Module 10: Database** | MongoDB, Mongoose | ⏳ Pending |
 | 🔴 **Module 11: Projects + AI** | Portfolio Website active, Project 2 placeholder, Full Stack + AI roadmap | 🔄 In Progress |
 
@@ -135,7 +137,7 @@ I am breaking down the vast ecosystem of web development into structured, manage
 - 📌 **PQ1:** Checks if a prompt-entered number is a multiple of 5.
 - 📌 **PQ2:** Full grade calculator — maps a prompt-entered score to grades A–F using `else if` chains.
 
-**Recent Learnings - JavaScript Loops & Strings:** 🔄
+**Recent Learnings - JavaScript Loops & Strings:** ✅
 - 📌 **For Loop:** `for (init; condition; increment)` — used to print 1–100 and calculate sum of 1–5 step by step.
 - 📌 **While Loop:** `while (condition)` — runs as long as condition is true; counter must be managed manually.
 - 📌 **Do-While Loop:** `do { } while (condition)` — always executes **at least once** before checking the condition.
@@ -143,7 +145,20 @@ I am breaking down the vast ecosystem of web development into structured, manage
 - 📌 **For-in Loop:** Iterates over **keys** of an object. Used `for (let key in obj)` to access property names and values.
 - 📌 **Nested Loops:** Outer loop + inner loop — inner resets and completes fully for each outer iteration.
 - 📌 **Infinite Loop Trap:** Identified that a wrong increment direction (e.g., `i--` when condition is `i <= 5`) causes an infinite loop — browser tab freezes.
-- 📌 **Block Scope in Loops:** Variables declared with `let` inside a loop block are not accessible outside it — `ReferenceError` if accessed after the loop ends.
+- 📌 **Block Scope in Loops:** Variables declared with `let` inside a loop block are not accessible outside it.
+
+**Recent Learnings - JavaScript Arrays:** 🔄
+- 📌 **Array Definition:** Storing multiple values in a single variable; arrays are objects.
+- 📌 **Indexing:** Accessing elements via `marks[0]`, `marks[1]`, etc.
+- 📌 **Looping:** Iterating through arrays using both traditional `for` loops and the modern `for-of` loop.
+- 📌 **Practical Logic:** Calculated the average of a class's marks and applied a 10% discount to a prices array.
+- 📌 **Array Methods:** Mastered core methods:
+  - `push()` & `pop()` (end manipulation)
+  - `unshift()` & `shift()` (start manipulation)
+  - `concat()` (joining arrays)
+  - `slice()` (extracting parts)
+  - `splice()` (powerful add/remove/replace tool)
+  - `toString()` (conversion)
 
 **Project Progress - Portfolio Website:**
 - 📌 Built a personal portfolio page with sections for Home, About, Skills, Projects, and Contact.

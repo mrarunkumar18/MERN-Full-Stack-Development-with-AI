@@ -105,7 +105,9 @@ root/
 | 7 | JavaScript Start (Control Flow) | 07_javaScript_start/*.html, note.txt | 🔄 active |
 | - | JavaScript Variables & Data Types | Resources/JavaScript/01_Variables & Data_types/* | ✅ done |
 | - | JavaScript Operators & Conditional | Resources/JavaScript/02_Operators and Conditional/* | ✅ done |
-| - | JavaScript Loops & Strings | Resources/JavaScript/03_Loops and Strings/* | 🔄 active |
+| - | JavaScript Loops & Strings | Resources/JavaScript/03_Loops and Strings/* | ✅ done |
+| - | JavaScript Arrays | Resources/JavaScript/04_Arrays/* | ✅ done |
+| - | JavaScript Functions | Resources/JavaScript/05_Functions/* | 🔄 active |
 | 8 | Backend Node/Express | not started | ⏳ pending |
 | 9 | MongoDB/Mongoose | not started | ⏳ pending |
 | 10 | Projects + AI | Projects/Portfolio_Website, Project 2 | 🔄 active |
@@ -313,10 +315,12 @@ learn concept → write in note.txt (own words)
 - [x] Operators and Conditional notes added: comments, arithmetic, assignment, comparison, logical, ternary, and if/else forms ✅
 - [x] PQ1 practice added for prompt-based multiple-of-5 checking ✅
 - [x] PQ2 practice added: full grade calculator (A–F) using prompt and else if chain ✅
-- [x] Loops & Strings module started: for, while, do-while, for-of, for-in loop types covered ✅
-- [x] Infinite loop trap and block scope inside loops understood ✅
-- [ ] Loops & Strings: complete for-in loop examples and string method practice
-- [ ] JavaScript Essentials: functions and arrays
+- [x] Loops & Strings module completed ✅
+- [x] Arrays module completed ✅
+- [ ] Functions: Understand definition, parameters, and return values
+- [ ] Functions: Practice simple function creation and invocation
+- [ ] Functions: Learn Arrow Functions (modern ES6 syntax)
+- [ ] Functions: Solve practice questions (vowel count, squared numbers)
 - [ ] DOM manipulation: document.querySelector, getElementById, addEventListener
 - [ ] ES6: let/const, arrow functions, template literals, destructuring, spread/rest
 - [ ] Backend: Node.js, Express.js, APIs
