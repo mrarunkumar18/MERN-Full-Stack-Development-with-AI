@@ -1,0 +1,5 @@
+Arrays : Collection of multiple data in a Single Variable 
+
+create Array : let arr = [1,2,3,4,5];
+
+Arrays can hold different data types  
