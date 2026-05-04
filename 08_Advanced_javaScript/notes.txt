@@ -45,4 +45,9 @@ Objects :
         }
         const obj = new MyObject();
     3. Factory
+        function MyObject(){
+            return {
+                key : value
+            }
+        }    
     
