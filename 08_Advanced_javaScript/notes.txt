@@ -1,0 +1,48 @@
+--> Object : It is a standalone entity used to store data in key value pairs.in In object we can store variables , arrays,, object, functions, other objects. In real life data also we represent in the form of key-value pairs. Objects are the collection of properties and methods. 
+Example : 
+Real life : 
+    Name : "John",
+    Age : 30,
+    Job : "Engineer",
+    Hobbies : ["Reading", "Writing", "Coding"],
+    Address : {
+        City : "New York",
+        State : "NY",
+        Zip : "10001"
+    },
+    Skills : function(){
+        console.log("I am a ",this.Job);
+    },
+    
+
+In Real Life Example:
+    Name : "John",  --> Property
+    Age : 30,  --> Property
+    Job : "Engineer",  --> Property
+    Hobbies : ["Reading", "Writing", "Coding"],  --> Property
+    Address : {
+        City : "New York",  --> Property
+        State : "NY",  --> Property
+        Zip : "10001"  --> Property
+    },  --> Property
+    Skills : function(){  --> Method
+        console.log("I am a ",this.Job);
+    },  --> Method
+
+
+Objects : 
+    - Properties : Variables inside the object.
+    - Methods : Functions inside the object.
+
+--> Ways to create objects:
+    1. Object Literal
+        const obj = {
+            key : value,
+        }
+    2. Constructor
+        function MyObject(){
+            this.key = value;
+        }
+        const obj = new MyObject();
+    3. Factory
+    
