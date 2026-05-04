@@ -46,8 +46,33 @@
 
 
 
-let heros = ["shaktiman", "Spiderman", "Thor", "Ironman", "Batman"];
+// let heros = ["shaktiman", "Spiderman", "Thor", "Ironman", "Batman"];
 
-for(let idx = 0; idx < heros.length; idx++){
-    console.log(heros[idx], "\n");
+// **For Loop**
+
+// for(let idx = 0; idx < heros.length; idx++){
+//     console.log(heros[idx], "\n");
+// }
+
+
+// **For of Loop**
+
+// for (let hero of heros){
+//     console.log(hero, "\n");
+// }
+
+
+
+
+
+
+//
+
+
+
+let cities = ["delhi", "kolkata", "mumbai", "surat"]; 
+
+for (let city of cities){
+    console.log(city, "\n");
 }
+
