@@ -49,9 +49,17 @@ const obj = {
     age: 21,
     city: "Surat"
 }
-console.log(Object.keys(obj)); // [ 'name', 'age', 'city' ]
-console.log(Object.values(obj)); // [ 'Arun', 21, 'Surat' ]
-console.log(Object.entries(obj)); // [ [ 'name', 'Arun' ], [ 'age', 21 ], [ 'city', 'Surat' ] ]
-console.log(Object.hasOwn(obj, 'name')); // true
-console.log(Object.hasOwn(obj, 'job')); // false
+// console.log(Object.keys(obj)); // [ 'name', 'age', 'city' ]
+// console.log(Object.values(obj)); // [ 'Arun', 21, 'Surat' ]
+// console.log(Object.entries(obj)); // [ [ 'name', 'Arun' ], [ 'age', 21 ], [ 'city', 'Surat' ] ]
+// console.log(Object.hasOwn(obj, 'name')); // true
+// console.log(Object.hasOwn(obj, 'job')); // false
+
+// for (let [key, value] of Object.entries(obj)) {
+//     console.log(key,value)
+// }
+
+for (let key in obj){
+    console.log(key,obj[key])
+}
 
