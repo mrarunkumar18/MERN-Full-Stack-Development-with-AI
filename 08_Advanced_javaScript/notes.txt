@@ -60,3 +60,14 @@ Objects :
                       function.apply(this, [arg1, arg2, ...])
                       function.bind(this, arg1, arg2, ...) 
     
+    -->apply() : The apply() method calls a function with arguments provided as an array.
+    
+             example
+                
+                 function xyz(message,data){
+                        console.log(`${message}, ${this.name} , ${data}`);
+                    }
+                    const person = {name :"Arun"}
+                    xyz.apply(person,["Hello","!"])
+
+                -->
