@@ -22,13 +22,22 @@
             //Example:
             const person1 = {name : "Arun"}
             const person2 = {name : "Abhi"}
-            xyz.call(person1,"Hello", "!")
-            xyz.call(person2,"Hello", "!")
-            xyz.apply(person1,["Hello", "!"])
-            xyz.apply(person2,["Hello", "!"])
-            xyz.bind(person1)();
-            xyz.bind(person2)();
+            // xyz.call(person1,"Hello", "!")
+            // xyz.call(person2,"Hello", "!")
+            // xyz.apply(person1,["Hello", "!"])
+            // xyz.apply(person2,["Hello", "!"])
+            // xyz.bind(person1)();
+            // xyz.bind(person2)();
             
+
+            // const newFunction=xyz.bind(person, "Welcome")
+            // newFunction();
+
+
+
+            const stockPrice = [250,750,220,110,999]
+            console.log(`Highest Price : ${Math.max.apply(null, stockPrice)}`)
+            console.log(`Lowest Price : ${Math.min.apply(null,stockPrice)}`) 
     </script>
 </body>
 </html>

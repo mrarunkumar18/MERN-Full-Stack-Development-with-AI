@@ -70,4 +70,11 @@ Objects :
                     const person = {name :"Arun"}
                     xyz.apply(person,["Hello","!"])
 
-                -->
+                --> apply()  : we can pass multiple arguments in an array 
+                          
+                           xyz.apply(person,["Hello", "!"])
+ 
+                    -> bind() : It does not execute the function immeditely . It return copy of the function with the this value       
+                
+
+        --> Prototypal inheritance (proto) : es6 JavaScript introducd inhwritance extends keyword for inheritance      

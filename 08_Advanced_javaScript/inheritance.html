@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance</title>
+</head>
+<body>
+    <h2>Inheritance</h2>
+    <!-- <script>
+        // Parent Class (Base Class)
+        class person{
+            constructor(fname,lname,age){
+               this.fname = fname;
+               this.lname = lname;
+               this.age = age;
+            }
+            getFullName(){
+                return `${this.fname} ${this.lname}`;
+            }   
+        }
+
+        class Enployee extends Person{  // Child Class (Derived Class)
+            constructor(fname,lname, age,job){
+                super(fname,lname,age); // Parent Class Constructor Call 
+                this.job = job;
+                
+            }
+            getFullDetails(){
+                return `Name : ${this.getFullName()} , Age : ${this.age}`;
+            }
+        }
+        const employee1 = new Employee("John", "Doe", 30);
+        console.log(employee1.getFullDetails()); 
+         
+
+    </script> -->
+
+    <script>
+    // Parent Class - Changed 'person' to 'Person'
+    class Person {
+        constructor(fname, lname, age) {
+            this.fname = fname;
+            this.lname = lname;
+            this.age = age;
+        }
+        getFullName() {
+            return `${this.fname} ${this.lname}`;
+        }
+    }
+
+    // Child Class - Fixed 'Enployee' to 'Employee' and extended 'Person'
+    class Employee extends Person {
+        constructor(fname, lname, age, job) {
+            super(fname, lname, age);
+            this.job = job;
+        }
+        getFullDetails() {
+            return `Name: ${this.getFullName()}, Age: ${this.age}, Job: ${this.job}`;
+        }
+    }
+
+    // Correctly instantiating 'Employee' with all required arguments
+    const employee1 = new Employee("John", "Doe", 30, "Developer");
+    console.log(employee1.getFullDetails()); 
+</script>
+</body>
+</html>
