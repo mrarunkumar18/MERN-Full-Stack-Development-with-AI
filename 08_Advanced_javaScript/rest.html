@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest Oprator</title>
+</head>
+<body>
+    <h2>Rest Oprator Example</h2>
+    <script>
+        function myAddition(...args){
+            let sum=0;
+            args.forEach(val=> sum+=val);
+            return sum;
+        }
+        console.log(myAddition(1,2,3,4,5));
+        
+    </script>
+</body>
+</html>

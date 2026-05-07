@@ -1,7 +1,7 @@
 # 🚀 MERN Full Stack Development with AI
-> *A structured journey from web fundamentals to JavaScript essentials, control flow, loops, strings, and toward MERN stack development and AI-powered applications.*
+> *A structured journey from web fundamentals to JavaScript essentials, control flow, loops, strings, arrays, advanced JavaScript, and toward MERN stack development and AI-powered applications.*
 
-This repository documents my learning path through **HTML, CSS, responsive design, JavaScript fundamentals, operators, conditional logic, loops, strings, and practical AI integrations** as I build toward full-stack development.
+This repository documents my learning path through **HTML, CSS, responsive design, JavaScript fundamentals, operators, conditional logic, loops, strings, arrays, objects, inheritance, and practical AI integrations** as I build toward full-stack development.
 
 ---
 
@@ -95,10 +95,10 @@ I am breaking down the vast ecosystem of web development into structured, manage
 | 🟤 **Module 7: JavaScript Start (Control Flow)** | Operators, comments, assignment/comparison/logical operators, if/else, nested conditions, ternary operator, prompt input, PQ1 & PQ2 grade calculator | ✅ Completed |
 | 🟤 **Module 8: JavaScript Loops & Strings** | for loop, while loop, do-while loop, for-of loop (string iteration), for-in loop (object keys), nested loops, infinite loop awareness, block scope inside loops | ✅ Completed |
 | 🟡 **Module 9: JavaScript Arrays** | Array indexing, length, looping (for, for-of), average calculation, modifying elements, array methods (push, pop, splice, etc.) | ✅ Completed |
-| 🔵 **Module 10: JavaScript Functions** | Function definition, parameters, return values, arrow functions, higher-order function basics | 🔄 In Progress |
+| 🔵 **Module 10: Advanced JavaScript** | Objects, object methods, `this`, `call()`, `apply()`, `bind()`, ES6 classes, inheritance with `extends` and `super()` | 🔄 In Progress |
 | 🟠 **Module 11: Backend** | Node.js, Express.js, APIs | ⏳ Pending |
-| ⚫ **Module 10: Database** | MongoDB, Mongoose | ⏳ Pending |
-| 🔴 **Module 11: Projects + AI** | Portfolio Website active, Project 2 placeholder, Full Stack + AI roadmap | 🔄 In Progress |
+| ⚫ **Module 12: Database** | MongoDB, Mongoose | ⏳ Pending |
+| 🔴 **Module 13: Projects + AI** | Portfolio Website active, JavaScript project directory placeholder, Full Stack + AI roadmap | 🔄 In Progress |
 
 ---
 
@@ -160,6 +160,14 @@ I am breaking down the vast ecosystem of web development into structured, manage
   - `splice()` (powerful add/remove/replace tool)
   - `toString()` (conversion)
 
+**Recent Learnings - Advanced JavaScript:** 🔄
+- 📌 **Objects:** Practiced storing data as key-value pairs with properties, nested objects, arrays, and methods.
+- 📌 **Object Access:** Used dot notation, bracket notation, nested property access, and object iteration with `for...in`.
+- 📌 **Object Utilities:** Practiced `Object.keys()`, `Object.values()`, `Object.entries()`, and `Object.hasOwn()`.
+- 📌 **`this` Context:** Used object methods to understand how `this` points to the current object context.
+- 📌 **Function Borrowing:** Practiced `call()`, `apply()`, and `bind()` for invoking functions with custom `this` values.
+- 📌 **ES6 Classes & Inheritance:** Built parent/child classes with `extends`, called parent constructors with `super()`, and reused parent methods from child classes.
+
 **Project Progress - Portfolio Website:**
 - 📌 Built a personal portfolio page with sections for Home, About, Skills, Projects, and Contact.
 - 📌 Added navigation, call-to-action, and contact form structure using HTML and CSS.
@@ -190,8 +198,8 @@ code .
 
 ## 🎯 Future Plan
 
-- **Short-term:** Complete Loops & Strings module (for, while, do-while, for-of, for-in, nested loops), then move into JavaScript functions, arrays, DOM manipulation, and ES6 features.
-- **Project Focus:** Improve Portfolio Website UI/UX and start building `Project 2`.
+- **Short-term:** Continue Advanced JavaScript practice, then move into DOM manipulation, events, ES6 features, and function practice exercises.
+- **Project Focus:** Improve Portfolio Website UI/UX and start building inside `Projects/Javascript`.
 - **Mid-term:** Build and deploy 3 fully functional full-stack projects using React + Node.js + custom REST APIs.
 - **Long-term:** Master basic web security principles (Cybersecurity), keep improving AI-assisted workflows, and apply for remote full-stack internships.
 

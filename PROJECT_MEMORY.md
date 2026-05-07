@@ -2,7 +2,7 @@
 repo_type: chronological-learning-journal
 author: Arun Kumar | github: mrarunkumar18
 goal: MERN stack mastery → Cybersecurity
-status_date: 2026-04-30
+status_date: 2026-05-07
 
 ---
 
@@ -62,11 +62,17 @@ root/
     nested.html           → nested condition practice
     prompt-add.html       → prompt() input practice
     note.txt              → JavaScript notes: variables, constants, operators, conditions, loops
+  08_Advanced_javaScript/
+    inde.html             → advanced JavaScript practice scaffold
+    main.js               → object property access, methods, Object utilities, for-in iteration
+    call-apply-bind.html  → this binding, call(), apply(), bind(), Math max/min with apply()
+    inheritance.html      → ES6 class inheritance with extends and super()
+    notes.txt             → objects, object creation patterns, call/apply/bind, prototypal inheritance
   Projects/
     Portfolio_Website/
       index.html          → personal portfolio single-page layout
       styles.css          → portfolio styling and responsive adjustments
-    Project 2/            → placeholder for next project
+    Javascript/           → placeholder directory for JavaScript project work
   Resources/
     JavaScript/
       01_Variables & Data_types/
@@ -85,6 +91,12 @@ root/
         index.html        → JS integration scaffold for loops and strings practice
         script.js         → examples for for, while, do-while, for-of (string chars), for-in (object keys), nested loops
         note.txt          → theory: all 5 loop types with syntax, examples, infinite loop trap, block scope
+      04_Arrays/
+        index.html        → JS integration scaffold for arrays practice
+        script.js         → array indexing, traversal, mutation, and common methods
+        PQ1.js            → average marks practice
+        PQ2.js            → price discount practice
+        note.txt          → theory: arrays, loops, and common array methods
   README.md               → portfolio readme: progress table, notes, setup, future plan
   PROJECT_MEMORY.md       → this file
 ```
@@ -103,14 +115,14 @@ root/
 | 5 | JavaScript Foundation | 05_javaScript_foundatinon/*.html, note.txt, tailwind/first.html | ✅ done |
 | 6 | JavaScript Essentials | 06_Java_Script_Essentials/first.html, first.js, notes.txt | ✅ done |
 | 7 | JavaScript Start (Control Flow) | 07_javaScript_start/*.html, note.txt | ✅ done |
+| 8 | Advanced JavaScript | 08_Advanced_javaScript/* | 🔄 active |
 | - | JavaScript Variables & Data Types | Resources/JavaScript/01_Variables & Data_types/* | ✅ done |
 | - | JavaScript Operators & Conditional | Resources/JavaScript/02_Operators and Conditional/* | ✅ done |
 | - | JavaScript Loops & Strings | Resources/JavaScript/03_Loops and Strings/* | ✅ done |
 | - | JavaScript Arrays | Resources/JavaScript/04_Arrays/* | ✅ done |
-| - | JavaScript Functions | Resources/JavaScript/05_Functions/* | 🔄 active |
-| 8 | Backend Node/Express | not started | ⏳ pending |
-| 9 | MongoDB/Mongoose | not started | ⏳ pending |
-| 10 | Projects + AI | Projects/Portfolio_Website, Project 2 | 🔄 active |
+| 9 | Backend Node/Express | not started | ⏳ pending |
+| 10 | MongoDB/Mongoose | not started | ⏳ pending |
+| 11 | Projects + AI | Projects/Portfolio_Website, Projects/Javascript | 🔄 active |
 
 ---
 
@@ -244,7 +256,7 @@ root/
 - practice files: Variables.html, operators.html, if_else_even_odd.html, nested.html, prompt-add.html
 - resource folder: Resources/JavaScript/02_Operators and Conditional/
 
-### JavaScript Loops & Strings 🔄
+### JavaScript Loops & Strings ✅
 - **for loop:** `for (init; condition; increment)` — iteration with counter
   - printed 1–100 using loop
   - calculated cumulative sum of 1–5 step by step
@@ -259,6 +271,27 @@ root/
 - **infinite loop trap:** `i--` instead of `i++` with `i <= 5` → condition never false → browser freezes
 - **block scope in loops:** `let` declared inside `{ }` block is inaccessible outside → ReferenceError
 - resource folder: Resources/JavaScript/03_Loops and Strings/
+
+### JavaScript Arrays ✅
+- array indexing through zero-based positions
+- length property for count and loop boundaries
+- array traversal with traditional for loops and modern for-of loops
+- practical average calculation from numeric marks
+- practical 10% discount transformation over a prices array
+- core methods: push, pop, unshift, shift, concat, slice, splice, toString
+- resource folder: Resources/JavaScript/04_Arrays/
+
+### Advanced JavaScript Objects & Inheritance 🔄
+- objects as key-value collections with properties and methods
+- object literals, constructor functions, and factory function patterns
+- nested object and array access through dot/bracket notation
+- object methods using `this`
+- Object utilities: Object.keys, Object.values, Object.entries, Object.hasOwn
+- object iteration with `for...in`
+- function context control with call(), apply(), and bind()
+- apply() with Math.max/Math.min for array values
+- ES6 class inheritance with parent/child classes, extends, super(), and method reuse
+- active files: 08_Advanced_javaScript/main.js, call-apply-bind.html, inheritance.html, notes.txt
 
 ---
 
@@ -275,8 +308,12 @@ root/
 9. Resources/JavaScript/02_Operators and Conditional/PQ1.js → prompt-based multiple-of-5 practice question
 10. Resources/JavaScript/02_Operators and Conditional/PQ2.js → grade calculator: score 0–100 mapped to A–F
 11. Resources/JavaScript/03_Loops and Strings/script.js → for, while, do-while, for-of, for-in loop examples
-12. 07_javaScript_start/operators.html → operators and conditional logic practice
-13. Projects/Portfolio_Website/index.html → personal portfolio with Home/About/Skills/Projects/Contact sections
+12. Resources/JavaScript/04_Arrays/script.js → array indexing, loops, mutation, and methods
+13. 08_Advanced_javaScript/main.js → object property access, Object utilities, and for-in iteration
+14. 08_Advanced_javaScript/call-apply-bind.html → call(), apply(), bind(), and this-context practice
+15. 08_Advanced_javaScript/inheritance.html → ES6 class inheritance practice
+16. 07_javaScript_start/operators.html → operators and conditional logic practice
+17. Projects/Portfolio_Website/index.html → personal portfolio with Home/About/Skills/Projects/Contact sections
 
 ---
 
@@ -284,10 +321,10 @@ root/
 
 - This is a chronological learning journal, not a production app.
 - The folder names reflect the original course structure, including a few spelling quirks in the source material.
-- The clearest progress boundary right now is between JavaScript variables/data types and operators/conditional logic practice.
+- The clearest progress boundary right now is Advanced JavaScript: objects, this-context, call/apply/bind, and class inheritance are active.
 - The modal placement issue in Bootstrap was a useful bug fix: modal components need to live as direct children of <body>.
 - Tailwind exists as a small side experiment inside the JavaScript Foundation folder, but it is not the main learning track.
-- A dedicated Projects area is now active with a portfolio website and a placeholder second project.
+- A dedicated Projects area is active with a portfolio website and a placeholder JavaScript project directory.
 
 ---
 
@@ -317,12 +354,15 @@ learn concept → write in note.txt (own words)
 - [x] PQ2 practice added: full grade calculator (A–F) using prompt and else if chain ✅
 - [x] Loops & Strings module completed ✅
 - [x] Arrays module completed ✅
+- [x] Advanced JavaScript folder added with objects, call/apply/bind, and inheritance practice ✅
 - [ ] Functions: Understand definition, parameters, and return values
 - [ ] Functions: Practice simple function creation and invocation
 - [ ] Functions: Learn Arrow Functions (modern ES6 syntax)
 - [ ] Functions: Solve practice questions (vowel count, squared numbers)
+- [ ] Advanced JavaScript: refine notes and examples for object creation patterns
+- [ ] Advanced JavaScript: practice prototype chain and constructor inheritance
 - [ ] DOM manipulation: document.querySelector, getElementById, addEventListener
 - [ ] ES6: let/const, arrow functions, template literals, destructuring, spread/rest
 - [ ] Backend: Node.js, Express.js, APIs
 - [ ] Database: MongoDB, Mongoose
-- [ ] Projects + AI: expand Portfolio Website and start Project 2
+- [ ] Projects + AI: expand Portfolio Website and start the JavaScript project directory

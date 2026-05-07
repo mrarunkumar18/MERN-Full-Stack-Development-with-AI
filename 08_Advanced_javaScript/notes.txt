@@ -75,6 +75,32 @@ Objects :
                            xyz.apply(person,["Hello", "!"])
  
                     -> bind() : It does not execute the function immeditely . It return copy of the function with the this value       
+
                 
 
         --> Prototypal inheritance (proto) : es6 JavaScript introducd inhwritance extends keyword for inheritance      
+
+        
+
+
+        -> *** Spread Operator and Rest Parameter (...)
+
+
+            -> Spread Operator : It is used to spread or copy array or object data into new array or object.
+
+                  eg:  
+
+                    //array
+        let arr=[2,3,4,5,6]
+        let newArr=[...arr,89,90]
+        console.log(newArr);
+        //object
+let obj = {name:"Arun", age:21}
+let newObj = {...obj,age:22,city:"Mumbai"};
+console.log(newObj);
+
+
+
+        -> Rest Parameter : It is used to collect multiple arguments into an array. we can pass any number of arguments in a function. Limitaion is that rest parameter is the last formal parameter of the function.
+
+           eg: 
