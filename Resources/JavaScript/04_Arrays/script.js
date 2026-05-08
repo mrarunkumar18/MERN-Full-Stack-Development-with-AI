@@ -121,11 +121,22 @@
 
 // shift()
 
-let hero = [ "Thore", "Ironman", "Hulk"];
+// let hero = [ "Thore", "Ironman", "Hulk"];
 
-// hero.shift();  // Removes the first element of the array
+// // hero.shift();  // Removes the first element of the array
+// // console.log(hero);
+
+// let deletedItems = hero.shift();
+// console.log(deletedItems);
 // console.log(hero);
 
-let deletedItems = hero.shift();
-console.log(deletedItems);
-console.log(hero);
+
+
+// slice()
+
+let heros = [ "Thore", "Ironman", "Hulk","Spiderman","Batman","Shaktiman","Heman"];
+
+console.log(heros);
+
+// heros.slice(1,3);   // returns a piece of an array (end index is exclusive)
+console.log(heros.slice(2,5));
