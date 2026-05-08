@@ -47,6 +47,9 @@ Arrays can hold different data types
 
             splice() : change original array : add, remove or replace elements
 
+
+            Splice :  (start, deleteCount, item1, item2, ...)
+
             
 
             

@@ -134,9 +134,21 @@
 
 // slice()
 
-let heros = [ "Thore", "Ironman", "Hulk","Spiderman","Batman","Shaktiman","Heman"];
+// let heros = [ "Thore", "Ironman", "Hulk","Spiderman","Batman","Shaktiman","Heman"];
 
-console.log(heros);
+// console.log(heros);
 
-// heros.slice(1,3);   // returns a piece of an array (end index is exclusive)
-console.log(heros.slice(2,5));
+// // heros.slice(1,3);   // returns a piece of an array (end index is exclusive)
+// console.log(heros.slice(2,5));
+
+
+
+
+
+// splice(start, deleteCount, item1, item2, ...);
+
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+
+arr.splice(1, 3, 99, 88, 77); // adds 7 and 8 at index 2 and removes 3 elements starting from index 2
+console.log(arr);
