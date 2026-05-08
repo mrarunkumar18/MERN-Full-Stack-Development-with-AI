@@ -16,3 +16,26 @@ Arrays can hold different data types
         for(let i = 0; i<arr.length; i++){
             
         }
+
+
+        --> Array Methods : 
+
+             1. push()
+                pop()
+                shift()
+                unshift()
+                splice()
+                slice()
+                concat()
+                join()
+                reverse()
+                map()
+                filter()
+                reduce()
+                forEach()
+                find()
+                findIndex()
+                sort()
+
+            Concat() : Combines two or more arrays. 
+                
