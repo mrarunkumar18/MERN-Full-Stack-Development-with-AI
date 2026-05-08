@@ -38,4 +38,18 @@ Arrays can hold different data types
                 sort()
 
             Concat() : Combines two or more arrays. 
+
+            unshift() : Adds one or more elements to the beginning of an array. 
+
+            shift() : Removes the first element from the array
+
+            slice() : returns a piece of an array 
+
+            splice() : change original array : add, remove or replace elements
+
+            
+
+            
+
+            
                 

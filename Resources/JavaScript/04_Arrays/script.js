@@ -85,6 +85,8 @@
 // console.log(food);                          // Array after deletion
 
 
+
+
 // toString()
 
 // let food = [ "apple" , "banana" , "mango" , "orange"];
@@ -93,10 +95,37 @@
 // console.log(typeof food);             // object
 
 
+
+
 //concat()
 
-let heros = [ "Thore", "Ironman", "Hulk"];
-let villains = [ "Loki", "Thanos", "Ultron" ];
+// let heros = [ "Thore", "Ironman", "Hulk"];
+// let villains = [ "Loki", "Thanos", "Ultron" ];
 
-let heros_villains = heros.concat(villains);
-console.log(heros_villains);
+// let heros_villains = heros.concat(villains);    // Combines two or more arrays.
+// console.log(heros_villains);
+
+
+
+
+// unshift()
+
+// let heros = [ "Thore", "Ironman", "Hulk"];
+
+// heros.unshift("Shaktiman","Spiderman"); // Adds to the beginning of the array
+
+// console.log(heros);
+
+
+
+
+// shift()
+
+let hero = [ "Thore", "Ironman", "Hulk"];
+
+// hero.shift();  // Removes the first element of the array
+// console.log(hero);
+
+let deletedItems = hero.shift();
+console.log(deletedItems);
+console.log(hero);
