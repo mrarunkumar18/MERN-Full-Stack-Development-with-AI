@@ -12,3 +12,6 @@ for(let i =0; i< prices.length; i++){
 
 console.log(`prices with offer = ${prices}`);
 
+
+
+
