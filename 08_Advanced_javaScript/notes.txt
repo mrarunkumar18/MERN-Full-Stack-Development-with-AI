@@ -110,3 +110,8 @@ console.log(newObj);
        -> Shallow copy : Create a object and copies the top level properties. (Copy the memory address) 
            spread operator(...)
        -> Deep Copy : create independent clone.   
+
+       --> Clouser :  it is a function that rememberrs its laxical environment , even after the outer function has finished  executing .  It anable that data encapsulation. 
+
+
+       

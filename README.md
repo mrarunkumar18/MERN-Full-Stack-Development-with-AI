@@ -3,6 +3,12 @@
 
 This repository documents my learning path through **HTML, CSS, responsive design, JavaScript fundamentals, operators, conditional logic, loops, strings, arrays, objects, inheritance, and practical AI integrations** as I build toward full-stack development.
 
+## Latest Update (May 2026)
+
+- Added more Advanced JavaScript practice material, including closure-focused notes and examples.
+- Continued strengthening object-oriented JavaScript concepts (`call`, `apply`, `bind`, classes, and inheritance).
+- Updated module notes to keep the learning tracker aligned with current progress.
+
 ---
 
 ## 📌 About This Repo
