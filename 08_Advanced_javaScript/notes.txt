@@ -113,5 +113,24 @@ console.log(newObj);
 
        --> Clouser :  it is a function that rememberrs its laxical environment , even after the outer function has finished  executing .  It anable that data encapsulation. 
 
+         example :  
+            function Outer(){
+            let count = 0;
+            function Inner(){
+                count++;
+                return count;
+            }
 
+
+--> Callback and asynchronous basics : 
+    -> Callback : It is a function that is passed as an argument to another function and is executed after some operation is completed. It is used to handle asynchronous operations in JavaScript. 
+
+    -> Asynchronous : It is a programming paradigm that allows multiple operations to be performed concurrently without blocking the main thread. In JavaScript, we can use callbacks, promises, and async/await to handle asynchronous operations.
        
+
+       eg: 
+       console.log("Start");
+       setTimeout(()=>{
+        console.log("This is a callback function");
+       },2000);
+       console.log("End");
