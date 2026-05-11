@@ -134,3 +134,21 @@ console.log(newObj);
         console.log("This is a callback function");
        },2000);
        console.log("End");
+
+
+       -> callbacks : are used to perform asynchronous operations in javascript. It is a function which is passed as argument to another function and is executed after some operation is completed.
+
+       eg: 
+         function xyz(callback){
+            setTimeout(()=>{
+                callback("This is a callback function");
+            },2000);
+            }
+            function abc(message){
+                console.log(message);
+            }
+            xyz(abc);
+
+
+
+         }
