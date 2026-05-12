@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>callback function</title>
+  </head>
+  <body>
+    <h2>callback functions</h2>
+
+    <script>
+      //
+      setTimeout(() => {
+        callback("This is a callback function");
+      }, 2000);
+      function abc(message) {
+        console.log(message);
+      }
+      xyz(abc);
+    </script>
+  </body>
+</html>

@@ -148,7 +148,12 @@ console.log(newObj);
                 console.log(message);
             }
             xyz(abc);
-
-
-
          }
+
+
+         *** real time scnario of callback ***
+
+         1. Fetch user details from database in behalf of userid 
+         2. fetch services in behalf of user id 
+         3. fetch cost of services in behalf of services ids
+         4. fetch final amount and show in UI 
