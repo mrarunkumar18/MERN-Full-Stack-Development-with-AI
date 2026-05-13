@@ -8,7 +8,7 @@ A structured learning journey from web fundamentals (HTML/CSS) through JavaScrip
 ## 📂 Directory Structure & Memory
 - **Numbered Modules (`00_` to `XX_`):** Chronological learning phases located in the root. Each contains practice files and a `note.txt` summarizing theory.
 - **`Resources/`:** Practice-focused deep dives. Structure mirrors learning modules (e.g., `Resources/JavaScript/01_Variables`).
-- **`08_Advanced_javaScript/`:** Active advanced JavaScript module covering objects, `this`, `call()`, `apply()`, `bind()`, ES6 classes, and inheritance.
+- **`08_Advanced_javaScript/`:** Comprehensive module covering objects, closures, async basics, `call`/`apply`/`bind`, and inheritance.
 - **`Projects/`:** Standalone functional projects and project placeholders (e.g., Portfolio Website, JavaScript project directory).
 - **`PROJECT_MEMORY.md`:** Detailed log of mastered concepts, module status, and technical insights.
 
@@ -31,8 +31,8 @@ A structured learning journey from web fundamentals (HTML/CSS) through JavaScrip
 ## 🔄 Workflow & State Tracking
 - **Learning:** Create folder -> add theory notes -> implement practical examples -> document in `PROJECT_MEMORY.md`.
 - **Progress:** Update `README.md` and `PROJECT_MEMORY.md` after completing significant milestones.
-- **Current Focus:** Keep Advanced JavaScript examples and notes aligned before moving deeper into DOM manipulation, ES6 features, backend, and database modules.
+- **Current Focus:** Transitions to DOM manipulation (querySelector, Event Listeners) and deep dives into ES6+ features (Modules, Destructuring) as part of the roadmap to React.
 - **AI Role:** Use Gemini CLI for code generation, refactoring, and architectural guidance. Specify context (e.g., "Learning Module", "Project Task") for better accuracy.
 
 ---
-*Last Updated: 2026-05-07*
+*Last Updated: 2026-05-13*

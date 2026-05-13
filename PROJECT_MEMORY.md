@@ -2,7 +2,7 @@
 repo_type: chronological-learning-journal
 author: Arun Kumar | github: mrarunkumar18
 goal: MERN stack mastery → Cybersecurity
-status_date: 2026-05-07
+status_date: 2026-05-13
 
 ---
 
@@ -67,7 +67,13 @@ root/
     main.js               → object property access, methods, Object utilities, for-in iteration
     call-apply-bind.html  → this binding, call(), apply(), bind(), Math max/min with apply()
     inheritance.html      → ES6 class inheritance with extends and super()
-    notes.txt             → objects, object creation patterns, call/apply/bind, prototypal inheritance
+    clouser.html          → closure pattern and data encapsulation
+    spread.html           → spread operator for array/object copying
+    rest.html             → rest parameter for variable argument handling
+    shallowcopy.html      → shallow vs deep copy concepts (memory address vs independent clone)
+    callback_function.html → callback functions and execution flow
+    asychronous.html      → asynchronous basics and setTimeout demo
+    notes.txt             → comprehensive notes on objects, inheritance, closures, and async JS
   Projects/
     Portfolio_Website/
       index.html          → personal portfolio single-page layout
@@ -115,7 +121,7 @@ root/
 | 5 | JavaScript Foundation | 05_javaScript_foundatinon/*.html, note.txt, tailwind/first.html | ✅ done |
 | 6 | JavaScript Essentials | 06_Java_Script_Essentials/first.html, first.js, notes.txt | ✅ done |
 | 7 | JavaScript Start (Control Flow) | 07_javaScript_start/*.html, note.txt | ✅ done |
-| 8 | Advanced JavaScript | 08_Advanced_javaScript/* | 🔄 active |
+| 8 | Advanced JavaScript | 08_Advanced_javaScript/* | ✅ done |
 | - | JavaScript Variables & Data Types | Resources/JavaScript/01_Variables & Data_types/* | ✅ done |
 | - | JavaScript Operators & Conditional | Resources/JavaScript/02_Operators and Conditional/* | ✅ done |
 | - | JavaScript Loops & Strings | Resources/JavaScript/03_Loops and Strings/* | ✅ done |
@@ -281,7 +287,7 @@ root/
 - core methods: push, pop, unshift, shift, concat, slice, splice, toString
 - resource folder: Resources/JavaScript/04_Arrays/
 
-### Advanced JavaScript Objects & Inheritance 🔄
+### Advanced JavaScript Objects & Inheritance ✅
 - objects as key-value collections with properties and methods
 - object literals, constructor functions, and factory function patterns
 - nested object and array access through dot/bracket notation
@@ -291,7 +297,13 @@ root/
 - function context control with call(), apply(), and bind()
 - apply() with Math.max/Math.min for array values
 - ES6 class inheritance with parent/child classes, extends, super(), and method reuse
-- active files: 08_Advanced_javaScript/main.js, call-apply-bind.html, inheritance.html, notes.txt
+- **Spread Operator (...):** copying and merging arrays/objects
+- **Rest Parameter (...):** gathering multiple arguments into an array
+- **Shallow vs Deep Copy:** copying references (memory address) vs creating independent clones
+- **Closures:** functions remembering lexical environment for data encapsulation
+- **Callbacks:** functions passed as arguments for completion-based execution
+- **Asynchronous Basics:** non-blocking execution using setTimeout and callback patterns
+- practice files: 08_Advanced_javaScript/*.html, notes.txt
 
 ---
 
@@ -312,7 +324,9 @@ root/
 13. 08_Advanced_javaScript/main.js → object property access, Object utilities, and for-in iteration
 14. 08_Advanced_javaScript/call-apply-bind.html → call(), apply(), bind(), and this-context practice
 15. 08_Advanced_javaScript/inheritance.html → ES6 class inheritance practice
-16. 07_javaScript_start/operators.html → operators and conditional logic practice
+16. 08_Advanced_javaScript/clouser.html → closure and data encapsulation practice
+17. 08_Advanced_javaScript/callback_function.html → callback and async flow demo
+18. 07_javaScript_start/operators.html → operators and conditional logic practice
 17. Projects/Portfolio_Website/index.html → personal portfolio with Home/About/Skills/Projects/Contact sections
 
 ---
@@ -321,7 +335,7 @@ root/
 
 - This is a chronological learning journal, not a production app.
 - The folder names reflect the original course structure, including a few spelling quirks in the source material.
-- The clearest progress boundary right now is Advanced JavaScript: objects, this-context, call/apply/bind, and class inheritance are active.
+- The clearest progress boundary right now is the completion of Advanced JavaScript: objects, this-context, call/apply/bind, class inheritance, closures, and async basics are all covered.
 - The modal placement issue in Bootstrap was a useful bug fix: modal components need to live as direct children of <body>.
 - Tailwind exists as a small side experiment inside the JavaScript Foundation folder, but it is not the main learning track.
 - A dedicated Projects area is active with a portfolio website and a placeholder JavaScript project directory.
@@ -354,15 +368,9 @@ learn concept → write in note.txt (own words)
 - [x] PQ2 practice added: full grade calculator (A–F) using prompt and else if chain ✅
 - [x] Loops & Strings module completed ✅
 - [x] Arrays module completed ✅
-- [x] Advanced JavaScript folder added with objects, call/apply/bind, and inheritance practice ✅
-- [ ] Functions: Understand definition, parameters, and return values
-- [ ] Functions: Practice simple function creation and invocation
-- [ ] Functions: Learn Arrow Functions (modern ES6 syntax)
-- [ ] Functions: Solve practice questions (vowel count, squared numbers)
-- [ ] Advanced JavaScript: refine notes and examples for object creation patterns
-- [ ] Advanced JavaScript: practice prototype chain and constructor inheritance
+- [x] Advanced JavaScript module completed (objects, closures, async basics, etc.) ✅
 - [ ] DOM manipulation: document.querySelector, getElementById, addEventListener
-- [ ] ES6: let/const, arrow functions, template literals, destructuring, spread/rest
+- [ ] ES6: arrow functions (deep dive), template literals, destructuring, spread/rest (review)
 - [ ] Backend: Node.js, Express.js, APIs
 - [ ] Database: MongoDB, Mongoose
 - [ ] Projects + AI: expand Portfolio Website and start the JavaScript project directory

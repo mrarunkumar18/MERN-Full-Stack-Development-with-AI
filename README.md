@@ -72,7 +72,7 @@ Notes: This repository currently contains learning modules and frontend practice
 - `05_javaScript_foundatinon/` — basic JS pages and examples
 - `06_Java_Script_Essentials/` — ES6 fundamentals and notes
 - `07_javaScript_start/` — control flow, loops, practice problems
-- `08_Advanced_javaScript/` — closures, inheritance, advanced topics
+- `08_Advanced_javaScript/` — closures, inheritance, this-context, async basics, spread/rest
 - `Projects/` — sample projects and portfolio
 - `Resources/` — structured practice problems and short exercises
 
@@ -110,7 +110,8 @@ See `/memories/repo/PROJECT_MEMORY.md` for an ongoing, structured set of project
 
 ## Roadmap & Next Steps
 
-- Finish Advanced JavaScript exercises and code examples
+- Master DOM manipulation (querySelector, addEventListener, etc.)
+- Deep dive into ES6+ features (Destructuring, Template Literals, Modules)
 - Start a small backend API with Express and connect to MongoDB
 - Build and deploy a full-stack project (React + Node + MongoDB)
 - Add CI/CD basics and basic security hardening
