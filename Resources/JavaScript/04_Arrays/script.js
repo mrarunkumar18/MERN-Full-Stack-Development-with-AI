@@ -144,13 +144,27 @@
 
 
 
-
-// splice(start, deleteCount, item1, item2, ...);
+//***
+// splice(start, deleteCount, item1, item2, ...) Method 
+//***
 
 
 let arr = [1, 2, 3, 4, 5, 6, 7, 8];
 
-arr.splice(1, 3, 99, 88, 77); // adds 7 and 8 at index 2 and removes 3 elements starting from index 2
+// arr.splice(1, 3, 99, 88, 77); // adds 7 and 8 at index 2 and removes 3 elements starting from index 2
+// console.log(arr);
+
+
+//Add Elements 
+
+// arr.splice(2,0,"arun","bobby"); // adds 7 and 8 at index 2 and removes 3 elements starting from index 2
+// console.log(arr);
+
+
+//Remove Elements  : 
+
+arr.splice(3,2); // removes 2 elements starting from index 3
 console.log(arr);
+
 
 
