@@ -17,7 +17,7 @@ Key goals:
 ## Quick Links
 
 - Repository root: `README.md`
-- Project notes (repo memory): `/memories/repo/PROJECT_MEMORY.md`
+- Project notes (repo memory): `PROJECT_MEMORY.md`
 
 ---
 
@@ -104,7 +104,7 @@ If you add a project, include a short `README.md` within that folder with run & 
 
 ## Project Memory & Notes
 
-See `/memories/repo/PROJECT_MEMORY.md` for an ongoing, structured set of project-level decisions, setup instructions, goals, and outstanding tasks.
+See `PROJECT_MEMORY.md` for an ongoing, structured set of project-level decisions, setup instructions, goals, and outstanding tasks.
 
 ---
 
@@ -115,6 +115,8 @@ See `/memories/repo/PROJECT_MEMORY.md` for an ongoing, structured set of project
 - Start a small backend API with Express and connect to MongoDB
 - Build and deploy a full-stack project (React + Node + MongoDB)
 - Add CI/CD basics and basic security hardening
+
+Current focus: DOM manipulation and ES6+ fundamentals as the transition step toward React.
 
 ---
 

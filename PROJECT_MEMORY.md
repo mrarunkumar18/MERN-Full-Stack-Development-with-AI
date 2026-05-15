@@ -2,7 +2,7 @@
 repo_type: chronological-learning-journal
 author: Arun Kumar | github: mrarunkumar18
 goal: MERN stack mastery → Cybersecurity
-status_date: 2026-05-13
+status_date: 2026-05-15
 
 ---
 
@@ -103,7 +103,7 @@ root/
         PQ1.js            → average marks practice
         PQ2.js            → price discount practice
         note.txt          → theory: arrays, loops, and common array methods
-  README.md               → portfolio readme: progress table, notes, setup, future plan
+  README.md               → repository readme: progress, roadmap, setup, and next steps
   PROJECT_MEMORY.md       → this file
 ```
 
@@ -327,7 +327,7 @@ root/
 16. 08_Advanced_javaScript/clouser.html → closure and data encapsulation practice
 17. 08_Advanced_javaScript/callback_function.html → callback and async flow demo
 18. 07_javaScript_start/operators.html → operators and conditional logic practice
-17. Projects/Portfolio_Website/index.html → personal portfolio with Home/About/Skills/Projects/Contact sections
+19. Projects/Portfolio_Website/index.html → personal portfolio with Home/About/Skills/Projects/Contact sections
 
 ---
 
