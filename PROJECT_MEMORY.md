@@ -2,7 +2,7 @@
 repo_type: chronological-learning-journal
 author: Arun Kumar | github: mrarunkumar18
 goal: MERN stack mastery → Cybersecurity
-status_date: 2026-05-13
+status_date: 2026-05-15
 
 ---
 
@@ -370,7 +370,7 @@ learn concept → write in note.txt (own words)
 - [x] Arrays module completed ✅
 - [x] Advanced JavaScript module completed (objects, closures, async basics, etc.) ✅
 - [ ] DOM manipulation: document.querySelector, getElementById, addEventListener
-- [ ] ES6: arrow functions (deep dive), template literals, destructuring, spread/rest (review)
+- [ ] ES6+: modules, destructuring, template literals, arrow functions, spread/rest (review)
 - [ ] Backend: Node.js, Express.js, APIs
 - [ ] Database: MongoDB, Mongoose
 - [ ] Projects + AI: expand Portfolio Website and start the JavaScript project directory
